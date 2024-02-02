@@ -3,7 +3,7 @@
     font-family: 'Dana';
     src: url('../public/font/Dana/woff2/DanaFaNum-Medium.woff2');
 }
-
+/* ============= VARIABLES ============== */ 
 :root {
     --primary-color : #22c55e;
     --primary-dark-color : #14532d;
@@ -14,6 +14,7 @@
     --box-shadow-m :rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; 
     --box-shadow-l :  rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 
 
 /* ============= RESET CSS ============== */
@@ -75,7 +76,7 @@ html {
 }
 
 body {
-    font-family: 'Dana';
+    font-family: 'Dana'  , tahoma;
     line-height: 1.6;
     font-size: 1.6rem;
 }
@@ -85,4 +86,62 @@ body {
 .link {
     text-decoration: none;
     color: var(--dark-color);
+}
+
+
+
+/* ============= RESPONSIVE ============== */ 
+
+@media screen and (max-width:256px) {
+    .nav {
+        display: none;
+    }
+    .nav-mobile {
+        display: flex;
+    }
+} 
+
+@media screen and (min-width:256px) and (max-width:768px) {
+    .nav {
+        display: none;
+    }
+    .nav-mobile {
+        display: flex;
+    }
+    .nav__add-post {
+        padding: .5rem 1rem;
+        font-size: 1.4rem;
+    }
+    .nav__add-post-icon {
+        font-size: 2rem !important;
+        margin-left: .5rem;
+    }
+    .nav__logo-img {
+        display: none;
+    }
+} 
+@media screen and (min-width:768px) and (max-width:992px) {
+    .container {
+        max-width: 1100px;
+    }
+    .nav__right {
+        column-gap: 1rem;
+    }
+    .nav__menu-item {
+        margin: 0 .5rem;
+        font-size: 1.6rem;
+    }
+    .nav__add-post{
+        padding: 0.5rem .5rem;
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    .container {
+        max-width: 1100px;
+    }
+    .nav__menu-item {
+        margin: 0 .5rem;
+        font-size: 1.5rem;
+    }
 }
