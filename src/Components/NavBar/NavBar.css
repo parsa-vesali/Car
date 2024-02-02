@@ -1,3 +1,133 @@
-.test {
+.nav {
+    width: 100%;
+    height: 10rem;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.nav__logo {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.nav__logo span {
+    color: #79cc52;
+}
+
+.nav__logo-img {
+    width: 3rem;
+}
+
+
+.nav__menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__menu-item {
+    margin: 0 2rem;
+    position: relative;
+    font-size: 1.8rem;
+    transition: all 250ms ease-in-out;
+}
+
+.nav__menu-item:hover {
+    color: var(--primary-color);
+}
+
+.nav__menu-icon {
+    margin-right: 1rem;
+}
+
+.nav__submenu {
+    position: absolute;
+    width: 22rem;
+    top: 10rem;
+    padding: 1rem 2rem;
+    border-radius: 1.6rem;
+    border-top: 3px solid var(--primary-color);
+    box-shadow: var(--box-shadow-m);
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 250ms ease-in-out;
+    transition-delay: 100ms;
+    font-size: 1.5rem;
+}
+
+.nav__menu-item:hover .nav__submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 5rem;
+}
+
+.nav__submneu-item {
+    margin: 1rem 0;
+    transition: all 100ms ease-in;
+}
+
+.nav__submneu-item:hover {
+    color: var(--primary-color);
+}
+
+.nav__submneu-item svg {
+    font-size: 2rem;
+}
+
+.nav__submenu-icon {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+}
+
+.nav__account {
+    margin: 0 1rem;
+}
+
+.nav__account svg {
+    font-size: 2rem;
+    margin: 0 .5rem;
+}
+
+.nav__submenu-item-logout {
+    border-top: 1px solid #e4e4e7;
+    padding-top: 1.5rem;
+}
+
+.nav__submenu-item-logout:hover {
+    color: #dc2626;
+}
+
+.nav__add-post {
+    padding: 1rem 1.5rem;
+    border: 2px solid #e4e4e7;
+    border-radius: 5rem;
+    transition: all 300ms ease;
+}
+
+.nav__add-post:hover {
+    background-color: var(--gray-color);
+}
+
+.nav__add-post-icon {
+    margin-left: 1rem;
+    font-size: 3rem !important;
     color: var(--primary-color);
 }
