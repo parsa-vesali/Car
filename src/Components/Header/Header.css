@@ -1,0 +1,17 @@
+.swiper-container {
+    direction:ltr;
+    z-index: 99;
+}
+.mySwiper {
+    height: 80vh;
+}
+.swiper-slide {
+   width: 100%;
+   height: 100%;
+   background-color: aqua;
+}
+.slider__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
