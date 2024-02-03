@@ -99,6 +99,9 @@ body {
     .nav-mobile {
         display: flex;
     }
+    .swiper-container {
+        height: 50vh;
+    }
 } 
 
 @media screen and (min-width:256px) and (max-width:768px) {
@@ -118,6 +121,9 @@ body {
     }
     .nav__logo-img {
         display: none;
+    }
+    .swiper-container {
+        height: 50vh;
     }
 } 
 @media screen and (min-width:768px) and (max-width:992px) {

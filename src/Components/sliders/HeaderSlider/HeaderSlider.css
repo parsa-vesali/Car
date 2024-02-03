@@ -1,0 +1,27 @@
+.swiper-container {
+    direction: ltr;
+    z-index: 99;
+    height: 80vh;
+}
+
+.mySwiper {
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: relative;
+}
+
+.slider__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
