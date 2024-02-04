@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { populaModelDatas } from "../../datas";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
 
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import "./PopularModel.css";
@@ -31,12 +34,47 @@ export default function PopularModel() {
         </div>
         <div className="popularModel__images">
           {getRandomImages().map((popularData) => (
-            <img
+            <img 
+            className="popularModel__image"
               src={popularData.srcImg}
               alt="popularImg"
               key={popularData.id}
             />
           ))}
+        </div>
+        {/* MOBILE */}
+        <div className="popularModel__images-mobile">
+          <Swiper
+            slidesPerView={2}
+            spaceBetween={5}
+            centeredSlides={true}
+            className="mySwiper"
+            breakpoints={{
+                526: {
+                  slidesPerView: 4, 
+                },
+                640: {
+                  slidesPerView: 4, 
+                },
+                768: {
+                  slidesPerView: 5, 
+                },
+                992: {
+                  slidesPerView: 5,
+                },
+              }}
+          >
+            {getRandomImages().map((popularData) => (
+              <SwiperSlide>
+                <img
+                className="popularModel__image"
+                  src={popularData.srcImg}
+                  alt="popularImg"
+                  key={popularData.id}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </div>
