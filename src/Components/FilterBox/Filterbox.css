@@ -7,57 +7,112 @@
     align-items: center;
     justify-content: center;
 }
+
 .filterBox__container {
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--white-color);
-    padding: 2rem ;
+    padding: 2rem;
     border-radius: 1.5rem;
 }
-.filterBox__right{
 
-}
-.filterBox__brand{
+.filterBox__brand {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--white-color);
     width: 25rem;
 }
-.filterBox__brand-right{
+
+.filterBox__brand-right {
     display: flex;
     flex-direction: column;
     align-items: start;
 }
+
 .filterBox__brand-title {
     font-weight: bold;
     font-size: 1.8rem;
 }
-.filterBox__brand-subtitle{
+
+.filterBox__brand-subtitle {
     color: var(--text-color);
 }
-.filterBox__brand-left{}
-.filterBox__brand-icon{}
-.filterBox__center{}
-.filterBox__ragne{}
-.filterBox__rang-input {
-    width: 35rem;
-    direction: rtl;
+
+.modal__body {
+    padding: 2rem;
 }
 
-.filterBox__range-top{
+.modal__body-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.modal__body-subtitle {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin: 2rem 0;
+}
+
+.modal__list {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.modal__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.modal__item-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    font-size: 1.8rem;
+}
+
+.modal__link {
+    width: 100%;
+
+}
+
+.modal__svg svg {
+    width: 3rem;
+}
+
+.modal__icon {
+    font-size: 2.5rem !important;
+}
+
+
+.filterBox__brand-icon svg {
+    font-size: 2.5rem;
+}
+
+.filterBox__rang-input {
+    width: 35rem;
+}
+
+.filterBox__range-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 1rem;
 }
-.filterBox__range-title{
+
+.filterBox__range-title {
     font-weight: bold;
     font-size: 1.8rem;
 }
-.filterBox__range-text{
+
+.filterBox__range-text {
     color: var(--text-color);
 }
-.filterBox__left{}

@@ -43,3 +43,10 @@ body {
     color: var(--dark-color);
 }
 
+
+.modal__input {
+    padding: 1rem 2rem;
+    background-color: #f5f5f4;
+    border-radius: 4rem;
+    width:100%;
+}
