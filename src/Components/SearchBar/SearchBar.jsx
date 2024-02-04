@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import "./SearchBar.css";
 import SearchIcon from "@mui/icons-material/Search";
+import { Link } from "react-router-dom";
 
 export default function SearchBar() {
   const [lgShow, setLgShow] = useState(false);
@@ -14,16 +15,35 @@ export default function SearchBar() {
           جستجو کنید .... <SearchIcon className="search-box__btn-icon" />
         </button>
       </div>
+
       <Modal
         size="lg"
         show={lgShow}
         onHide={() => setLgShow(false)}
         aria-labelledby="example-modal-sizes-title-lg"
+        className="modal__search"
       >
         <Modal.Header closeButton className="modal__header" > 
-           <input type="text" />
         </Modal.Header>
-        <Modal.Body>...</Modal.Body>
+        <Modal.Body className="modal__body">
+          <div className="modal__search-box">
+          <input type="text"  className="modal__input" placeholder="جستجو کنید"/>
+          </div>
+          <ul className="modal__list">
+            <li className="modal__item">
+              <Link to={'/'} className="link" >پژو</Link>
+            </li>  
+            <li className="modal__item">
+              <Link to={'/'} className="link" >207 </Link>
+            </li>  
+            <li className="modal__item">
+              <Link to={'/'} className="link" >405</Link>
+            </li>  
+            <li className="modal__item">
+              <Link to={'/'} className="link" >206</Link>
+            </li>  
+          </ul>
+        </Modal.Body>
       </Modal>
     </>
   );

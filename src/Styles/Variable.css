@@ -1,0 +1,13 @@
+
+/* ============= VARIABLES ============== */ 
+:root {
+    --primary-color : #a3e635;
+    --primary-dark-color : #65a30d;
+    --dark-color : #020617;
+    --white-color : #f8fafc;
+    --gray-color : #e2e8f0;
+    --text-color : #94a3b8;
+    --box-shadow-m :rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; 
+    --box-shadow-l :  rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
