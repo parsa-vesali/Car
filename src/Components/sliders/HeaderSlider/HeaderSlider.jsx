@@ -12,21 +12,21 @@ export default function HeaderSlider() {
   return (
     <div className="swiper-container">
       <Swiper
+        loop={true}
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: true,
+        }}
         effect={"fade"}
         pagination={{
           dynamicBullets: true,
         }}
-        autoplay={{
-          delay: 1500,
-          disableOnInteraction: false,
-        }}
-        loop={true}
         modules={[Autoplay, Pagination, EffectFade]}
         className="mySwiper"
       >
         {sliders.map((slider) => (
           <SwiperSlide key={slider.id} className="swiper-slide">
-            <img src={slider.srcImg} alt="" className="slider__img" />  
+            <img src={slider.srcImg} alt="slide" className="slider__img" />
           </SwiperSlide>
         ))}
       </Swiper>

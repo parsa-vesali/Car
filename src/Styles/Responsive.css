@@ -73,6 +73,9 @@
     .filterBox__container{
         width: 90%;
     }
+    .typewriter__container{
+        font-size: 2rem !important;
+    }
 }
 @media screen and (max-width : 576px) {
     .nav {
@@ -98,5 +101,10 @@
     .app__btn {
         padding: .8rem 1.5rem !important;
         font-size: 1.5rem !important;
+    }
+    .typewriter__container {
+        text-align: center;
+        top: 40% !important;
+        font-size: 2rem !important;
     }
 }
