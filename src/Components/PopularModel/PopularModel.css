@@ -1,0 +1,18 @@
+.popularModel{
+    margin-top: 10rem;
+}
+.popularModel__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popularModel__header-title{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.popularModel__images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+}

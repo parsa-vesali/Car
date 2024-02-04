@@ -12,10 +12,10 @@ export default function TypeWraiterHeader() {
             }
             loop={false}
             cursor
-            cursorStyle='!'
-            typeSpeed={150}
-            deleteSpeed={80}
-            delaySpeed={1000}
+            cursorStyle='_'
+            typeSpeed={200}
+            deleteSpeed={100}
+            delaySpeed={1500}
           />
     </div>
   )
