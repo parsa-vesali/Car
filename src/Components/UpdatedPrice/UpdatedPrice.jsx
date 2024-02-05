@@ -23,7 +23,7 @@ export default function UpdatedPrice() {
         <div className="updatedPrice__slider">
           <Swiper
             slidesPerView={2}
-            spaceBetween={100}
+            spaceBetween={50}
             centeredSlides={true}
             className="mySwiper"
             autoplay={{
@@ -39,10 +39,10 @@ export default function UpdatedPrice() {
                 slidesPerView: 3,
               },
               768: { 
-                slidesPerView: 3,
+                slidesPerView: 4,
               },
               992: { 
-                slidesPerView: 3,
+                slidesPerView: 4,
               },
             }}
           >

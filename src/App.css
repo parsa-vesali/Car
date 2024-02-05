@@ -209,4 +209,37 @@ body {
         height: 20rem;
         object-fit: cover;
     }
+    .technical {
+        height: 20rem;
+    }
+    .technical__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .technical__header-title {
+        font-size: 1.6rem;
+    }
+    .updatedPrice {
+        padding: 2rem ;
+    }
+    .updatedPrice__icon {
+        width: 3rem;
+        height: 3rem;
+    }
+    .updatedPrice__icon svg {
+        font-size: 2rem;
+    }
+    .updatedPrice__header {
+        justify-content: center;
+    }
+    .updatedPrice__title {
+        font-size: 1.6rem;
+    }
+    .updatedPrice__slide-icon {
+        width: 4rem;
+    }
+    .updatedPrice__slide-price {
+        font-size: 1.5rem;
+    }
 }
