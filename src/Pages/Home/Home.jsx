@@ -3,6 +3,7 @@ import Heder from '../../Components/Header/Heder'
 import PopularModel from '../../Components/PopularModel/PopularModel'
 import UpdatedPrice from '../../Components/UpdatedPrice/UpdatedPrice'
 import Technical from '../../Components/Technical/Technical'
+import Articles from '../../Components/Articles/Articles'
 import './Home.css'
 export default function Home() {
   return (
@@ -10,9 +11,10 @@ export default function Home() {
       <Heder />
       <PopularModel />
       <div className="container UpdatedPrice__container">
-      <UpdatedPrice />
-      <Technical />
+        <UpdatedPrice />
+        <Technical />
       </div>
+      <Articles />
     </div>
   )
 }

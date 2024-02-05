@@ -1,7 +1,7 @@
 .updatedPrice{
     width: 70%;
     background-color: var(--gray-color);
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
 }
 .updatedPrice__header{
     display: flex;
