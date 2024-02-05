@@ -1,0 +1,48 @@
+.technical{
+    width: 100%;
+    height: 34rem;
+    background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,.50)), url(../../../public/img/Car-Engine.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 3rem;
+    cursor: pointer;
+}
+.technical__header{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.technical__header-title{
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--white-color);
+}
+.technical__btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+.technical__btn {
+    background-color: transparent;
+    color: var(--white-color);
+    font-weight: bold;
+    border: 2px solid var(--white-color);
+    padding: 1rem 1.5rem;
+    transition: all 200ms ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px);
+}
+.technical__btn svg {
+    font-size: 2rem ;
+}
+.technical__btn:hover {
+    background-color:#ffffff49;
+    border: 2px solid var(--text-color);
+}
+.technical:hover .technical__btn {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}

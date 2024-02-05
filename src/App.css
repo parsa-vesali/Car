@@ -73,6 +73,11 @@ body {
     .popularModel__image {
         width: 15rem;
     }
+    .updatedPrice {
+        width: 60%;
+    }
+
+
 }
 @media screen and (max-width : 992px) {
     .container {
@@ -109,6 +114,13 @@ body {
     .popularModel__images-mobile {
         display: flex;
         margin-top: 5rem;
+    }
+    .UpdatedPrice__container{
+        flex-direction: column-reverse;
+        gap: 2rem 0;
+    }
+    .updatedPrice {
+        width: 100%;
     }
 }
 @media screen and (max-width : 768px) {

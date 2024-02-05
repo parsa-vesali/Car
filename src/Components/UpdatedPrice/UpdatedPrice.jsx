@@ -3,7 +3,7 @@ import { brandDatas } from "../../datas";
 import ShowChartIcon from "@mui/icons-material/ShowChart";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
-import { populaModelDatas } from "../../datas";
+import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -12,7 +12,7 @@ import "./UpdatedPrice.css";
 export default function UpdatedPrice() {
   const [Datas, setDatas] = useState(brandDatas);
   return (
-    <div className="container">
+    <>
       <div className="updatedPrice">
         <div className="updatedPrice__header">
           <h2 className="updatedPrice__title">قیمت روز خودرو</h2>
@@ -22,8 +22,8 @@ export default function UpdatedPrice() {
         </div>
         <div className="updatedPrice__slider">
           <Swiper
-            slidesPerView={7}
-            spaceBetween={10}
+            slidesPerView={2}
+            spaceBetween={100}
             centeredSlides={true}
             className="mySwiper"
             autoplay={{
@@ -33,16 +33,16 @@ export default function UpdatedPrice() {
             loop={true}
             breakpoints={{
               526: {
-                slidesPerView: 4,
+                slidesPerView: 2,
               },
               640: {
-                slidesPerView: 4,
+                slidesPerView: 3,
               },
               768: { 
-                slidesPerView: 5,
+                slidesPerView: 3,
               },
-              992: {
-                slidesPerView: 5,
+              992: { 
+                slidesPerView: 3,
               },
             }}
           >
@@ -59,8 +59,11 @@ export default function UpdatedPrice() {
               </SwiperSlide>
             ))}
           </Swiper>
+          <button className="app__btn updatedPrice__slider-btn">
+            مشاهده همه <ChevronLeftIcon />
+          </button>
         </div>
       </div>
-    </div>
+    </>
   );
 }

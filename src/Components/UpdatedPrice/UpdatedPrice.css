@@ -1,9 +1,7 @@
 .updatedPrice{
-    width: 100%;
-    margin-top: 10rem;
+    width: 70%;
     background-color: var(--gray-color);
-    border-radius: 1.5rem;
-    padding: 3rem ;
+    padding: 2rem 4rem;
 }
 .updatedPrice__header{
     display: flex;
@@ -30,7 +28,7 @@
     font-size: 3rem ;
 }
 .updatedPrice__slider {
-    margin: 3rem 4rem;
+   margin-top: 4rem;
 }
 .updatedPrice__slide{
     display: flex;
@@ -67,4 +65,8 @@
 }
 .arrow-down{
     color: red;
+}
+
+.updatedPrice__slider-btn {
+    margin-top: 4rem;
 }
