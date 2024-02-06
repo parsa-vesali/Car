@@ -1,5 +1,5 @@
 # Car buying website 🚗💻
-
+### This project is not finished yet
 <br>
 
 
@@ -18,6 +18,6 @@
 
 ## 💻 preview :
 
-![shopping link](https://github.com/parsa-vesali/React-cms/blob/main/panel-3.png)
-![shopping link](https://github.com/parsa-vesali/React-cms/blob/main/panel-2.png)
+![shopping link](https://github.com/parsa-vesali/Car/blob/main/car-1.png)
+
 
