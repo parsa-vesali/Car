@@ -18,6 +18,6 @@
 
 ## 💻 preview :
 
-![shopping link](https://github.com/parsa-vesali/Car/blob/main/car-1.png)
+![shopping link](https://github.com/parsa-vesali/Car/blob/main/cars.png)
 
 
