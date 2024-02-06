@@ -242,4 +242,32 @@ body {
     .updatedPrice__slide-price {
         font-size: 1.5rem;
     }
+    .article__boxes {
+        flex-direction: column ;
+        gap: 2rem 0;
+    }
+    .article__box {
+        display: flex;
+        width: 100%;
+    }
+    .article__box-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .article__box-body {
+        width: 30rem;
+    }
+    .article__box-title {
+        font-size: 1.7rem;
+    }
+    .article__box-subtitle {
+        font-size: 1.2rem;
+    }
+    .article__box-footer {
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+    .article__box-footer-date {
+        font-size: 1.2rem;
+    }
 }

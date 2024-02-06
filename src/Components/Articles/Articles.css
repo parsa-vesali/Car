@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 5rem;
+    column-gap: 1rem;
 }
 .article__box{
     width: 40rem;
