@@ -42,15 +42,15 @@ export default function NavBar() {
                 <Link to={"/"} className="link">
                   <span className="nav__menu-item">صفحه اصلی</span>
                 </Link>
-                <Link to={"/"} className="link">
+                <Link to={"/car"} className="link">
                   <span className="nav__menu-item">
                     خودرو
                     <KeyboardArrowDownIcon className="nav__menu-icon" />
                     <div className="nav__submenu">
-                      <a href="#" className="nav__submneu-item link">
+                      <Link to={'./car'} className="link nav__submneu-item link">
                         <DirectionsCarIcon className="nav__submenu-icon" />
                         خرید خودرو
-                      </a>
+                      </Link>
                       <a href="#" className="nav__submneu-item link">
                         <AddIcon className="nav__submenu-icon" />
                         ثبت آگهی خودرو
@@ -164,10 +164,10 @@ export default function NavBar() {
               </div>
 
               <div className="nav-mobile__submenu">
-                <a href="#" className="nav__submneu-item link">
+                <Link to={'/car'}   className="link nav__submneu-item link">
                   <DirectionsCarIcon className="nav__submenu-icon" />
                   خرید خودرو
-                </a>
+                </Link>
                 <a href="#" className="nav__submneu-item link">
                   <AddIcon className="nav__submenu-icon" />
                   ثبت آگهی خودرو

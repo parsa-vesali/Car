@@ -24,18 +24,18 @@ export default function PopularModel() {
             <h2 className="popularModel__header-title">محبوبترین مدل‌ها</h2>
           </div>
           <div className="popularModel__header-left">
-            <button className="app__btn">
-              <Link to={"/"} className="link">
+            <Link to={"/car"} className="link">
+              <button className="app__btn">
                 مشاهده همه
                 <ChevronLeftIcon />
-              </Link>
-            </button>
+              </button>
+            </Link>
           </div>
         </div>
         <div className="popularModel__images">
           {getRandomImages().map((popularData) => (
-            <img 
-            className="popularModel__image"
+            <img
+              className="popularModel__image"
               src={popularData.srcImg}
               alt="popularImg"
               key={popularData.id}
@@ -50,24 +50,24 @@ export default function PopularModel() {
             centeredSlides={true}
             className="mySwiper"
             breakpoints={{
-                526: {
-                  slidesPerView: 4, 
-                },
-                640: {
-                  slidesPerView: 4, 
-                },
-                768: {
-                  slidesPerView: 5, 
-                },
-                992: {
-                  slidesPerView: 5,
-                },
-              }}
+              526: {
+                slidesPerView: 4,
+              },
+              640: {
+                slidesPerView: 4,
+              },
+              768: {
+                slidesPerView: 5,
+              },
+              992: {
+                slidesPerView: 5,
+              },
+            }}
           >
             {getRandomImages().map((popularData) => (
               <SwiperSlide>
                 <img
-                className="popularModel__image"
+                  className="popularModel__image"
                   src={popularData.srcImg}
                   alt="popularImg"
                   key={popularData.id}

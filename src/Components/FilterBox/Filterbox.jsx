@@ -93,7 +93,7 @@ export default function Filterbox() {
           </div>
         </div>
         <div className="filterBox__left">
-          <Link to={"/"} className="link">
+          <Link to={"/car"} className="link">
             <button className="app__btn">
               مشاهده آگهی ها
               <ChevronLeftIcon />

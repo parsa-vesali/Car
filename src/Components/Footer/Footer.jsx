@@ -40,7 +40,7 @@ export default function Footer() {
                  صفحه اصلی
                 </li>
               </Link>
-              <Link to={'/'} className="link">
+              <Link to={'/car'} className="link">
                 <li className="footer__menu-item">
                   <ChevronLeftIcon />
                   خرید خودرو
