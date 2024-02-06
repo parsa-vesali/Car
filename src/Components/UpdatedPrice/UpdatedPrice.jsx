@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Technical from '../../Components/Technical/Technical'
 import { brandDatas } from "../../datas";
 import ShowChartIcon from "@mui/icons-material/ShowChart";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
@@ -12,7 +13,7 @@ import "./UpdatedPrice.css";
 export default function UpdatedPrice() {
   const [Datas, setDatas] = useState(brandDatas);
   return (
-    <>
+    <div className="container UpdatedPrice__container">
       <div className="updatedPrice">
         <div className="updatedPrice__header">
           <h2 className="updatedPrice__title">قیمت روز خودرو</h2>
@@ -64,6 +65,7 @@ export default function UpdatedPrice() {
           </button>
         </div>
       </div>
-    </>
+      <Technical />
+    </div>
   );
 }
