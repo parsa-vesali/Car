@@ -1,3 +1,40 @@
-.articles{
+.article{
     margin-top: 10rem;
+}
+.article__boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.article__box{
+    width: 40rem;
+    cursor: pointer;
+    border: 1px solid #d5d5d5;
+}
+.article__box-img img{
+    width: 100%;
+}
+.article__box-body{
+    padding:  1rem;
+}
+.article__box-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.article__box-subtitle{
+    color: var(--text-color);
+    margin: .5rem 0;
+}
+.article__box-footer{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.article__box-footer-date{
+    color: var(--text-color);
+}
+.article__box-footer-icon svg{
+    font-size: 2rem;
 }

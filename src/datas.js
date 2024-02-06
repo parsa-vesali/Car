@@ -114,4 +114,42 @@ const brandDatas = [
     }
 ]
 
-export { SliderData, populaModelDatas, brandDatas }
+const articleDatas = [
+    {
+        id : 1 ,
+        title : 'معرفی لاماری ایما ',
+        subtitle : 'شرایط خرید و معرفی محصول',
+        mainImg : './img/article-1.webp',
+        createdAt : '1402/4/2'
+    } ,
+    {
+        id : 2 ,
+        title : 'معرفی لاماری ایما ',
+        subtitle : 'شرایط خرید و معرفی محصول',
+        mainImg : './img/article-2.webp',
+        createdAt : '1402/4/2'
+    } ,
+    {
+        id : 3 ,
+        title : 'معرفی لاماری ایما ',
+        subtitle : 'شرایط خرید و معرفی محصول',
+        mainImg : './img/article-3.webp',
+        createdAt : '1402/4/2'
+    } ,
+    {
+        id : 4 ,
+        title : 'معرفی لاماری ایما ',
+        subtitle : 'شرایط خرید و معرفی محصول',
+        mainImg : './img/article-4.webp',
+        createdAt : '1402/4/2'
+    } ,
+    {
+        id : 5 ,
+        title : 'معرفی لاماری ایما ',
+        subtitle : 'شرایط خرید و معرفی محصول',
+        mainImg : './img/article-5.webp',
+        createdAt : '1402/4/2'
+    } ,
+]
+
+export { SliderData, populaModelDatas, brandDatas , articleDatas }
