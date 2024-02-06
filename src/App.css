@@ -160,6 +160,23 @@ body {
         display: flex;
         margin-top: 5rem;
     }
+    .footer__container {
+        gap: 2rem 0;
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+    }
+    .footer__aboutUs ,.footer__socials ,.footer__menus{
+        width: 100%;
+    }
+    .footer__aboutUs-title, .footer__menu-title {
+        font-size: 1.7rem;
+    }
+    .footer__aboutUs-text  {
+        font-size: 1.4rem;
+    }
+    .footer__menu-item{
+        font-size: 1.5rem;
+    }
 }
 @media screen and (max-width : 576px) {
     .nav {
@@ -270,4 +287,22 @@ body {
     .article__box-footer-date {
         font-size: 1.2rem;
     }
+    .footer__container {
+        gap: 2rem 0;
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+    }
+    .footer__aboutUs ,.footer__socials ,.footer__menus{
+        width: 100%;
+    }
+    .footer__aboutUs-title, .footer__menu-title {
+        font-size: 1.7rem;
+    }
+    .footer__aboutUs-text  {
+        font-size: 1.4rem;
+    }
+    .footer__menu-item{
+        font-size: 1.5rem;
+    }
+
 }

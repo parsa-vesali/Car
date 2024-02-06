@@ -31,8 +31,9 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer__menus">
+            <h2 className="footer__menu-title">دسترسی سریع</h2>
+            <div className="footer__menus-container">
             <ul className="footer__menu">
-              <h2 className="footer__menu-title">دسترسی سریع</h2>
               <Link to={'/'} className="link">
                 <li className="footer__menu-item">
                   <ChevronLeftIcon />
@@ -64,6 +65,39 @@ export default function Footer() {
                 </li>
               </Link>
             </ul>
+            <ul className="footer__menu">
+              <Link to={'/'} className="link">
+                <li className="footer__menu-item">
+                  <ChevronLeftIcon />
+                 صفحه اصلی
+                </li>
+              </Link>
+              <Link to={'/'} className="link">
+                <li className="footer__menu-item">
+                  <ChevronLeftIcon />
+                  خرید خودرو
+                </li>
+              </Link>
+              <Link to={'/'} className="link">
+                <li className="footer__menu-item">
+                  <ChevronLeftIcon />
+                  تماس با ما
+                </li>
+              </Link>
+              <Link to={'/'} className="link">
+                <li className="footer__menu-item">
+                  <ChevronLeftIcon />
+                  حساب کاربری
+                </li>
+              </Link>
+              <Link to={'/'} className="link">
+                <li className="footer__menu-item">
+                  <ChevronLeftIcon />
+                  برند ها
+                </li>
+              </Link>
+            </ul>
+            </div>
           </div>
         </div>
       </div>

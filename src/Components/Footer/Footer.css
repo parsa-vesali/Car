@@ -21,10 +21,15 @@
     color: var(--text-color);
 }
 
+.footer__menus-container {
+    display: flex;
+    gap: 0 5rem;
+}
+
 .footer__menus {
     width: 30%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .footer__menu {
@@ -34,6 +39,7 @@
 .footer__menu-item {
     margin: 1rem 0;
     transition: all 200ms ease;
+    color: #494949;
 }
 
 .footer__menu-item:hover {
