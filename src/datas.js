@@ -152,4 +152,93 @@ const articleDatas = [
     } ,
 ]
 
-export { SliderData, populaModelDatas, brandDatas , articleDatas }
+const bodyTypeDatas = [
+    {
+        id : 1 ,
+        title : 'سدان'
+    },
+    {
+        id : 2 ,
+        title : 'شاسی بلند'
+    },
+    {
+        id : 3 ,
+        title : 'هاچبک'
+    },
+    {
+        id : 4 ,
+        title : 'وانت'
+    },
+    {
+        id : 5 ,
+        title : 'کوپه'
+    },
+    {
+        id : 6 ,
+        title : 'کروک'
+    },
+    {
+        id : 7 ,
+        title : 'ون'
+    },
+]
+
+const colorDatas = [
+    {
+        id : 1 , 
+        title : 'سفید',
+        color : '#f1f5f9'
+    },
+    {
+        id : 2 , 
+        title : 'مشکی',
+        color : '#020617'
+    },
+    {
+        id : 3 , 
+        title : 'خاکستری',
+        color : '#334155'
+    },
+    {
+        id : 4 , 
+        title : 'نقره ای',
+        color : '#6b7280'
+    },
+    {
+        id : 5 , 
+        title : 'قرمز',
+        color : '#dc2626'
+    },
+    {
+        id : 6 , 
+        title : 'آبی',
+        color : '#1d4ed8'
+    },
+]
+
+const bodyCondition = [
+    {
+        id : 1,
+        title : 'بدون رنگ',
+    },
+    {
+        id : 2 ,
+        title : 'یک لکه رنگ',
+    },
+    {
+        id : 3,
+        title : 'دور رنگ',
+    },
+    {
+        id : 4,
+        title : 'گلگیر رنگ',
+    },
+    {
+        id : 5,
+        title : 'صافکاری بدون رنگ',
+    }
+]
+
+
+
+export { SliderData, populaModelDatas, brandDatas , articleDatas , bodyTypeDatas , colorDatas ,bodyCondition}
