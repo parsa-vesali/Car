@@ -1,3 +1,90 @@
 .advertisements {
     flex: 5 ;
+    margin-right: 4rem;
+}
+
+.advertisements__box {
+    display: flex;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+
+.advertisements__box-img {
+    height: 100%;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.advertisements__box-img img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.advertisements__box-left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.advertisements__box-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+}
+.advertisements__box-titles{
+    display: flex;
+    column-gap: .7rem;
+    align-items: center;
+}
+.advertisements__box-title{
+    font-weight: bold;
+}
+.advertisements__box-title-date{
+    font-size: 1.3rem;
+    color: var(--text-color);
+}
+
+.Chip {
+    font-size: 1.3rem !important;
+    font-family: 'Dana' !important;
+}
+
+.advertisements__box-property{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+.advertisements__box-Property-text{
+    font-size: 1.7rem;
+}
+
+.advertisements__box-address{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+.advertisements__box-address-text{
+
+}
+
+
+
+
+.advertisements__box-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: end;
+}
+.advertisements__box-price-icon svg{
+    font-size: 2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.advertisements__box-price-text{
+    font-size: 1.8rem;
+    font-weight: bold;
 }
