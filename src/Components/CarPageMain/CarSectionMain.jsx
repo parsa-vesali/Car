@@ -9,7 +9,7 @@ export default function CarSectionMain() {
     <>
      <div className="CarSectionMain__header">
         <h2 className='CarSectionMain__header-title'>خرید خودرو ، فروش خودرو</h2>
-        <form className='CarSectionMain__form'>
+        {/* <form className='CarSectionMain__form'>
           <select className='CarSectionMain__selection'>
             <option value="" className='CarSectionMain__option'>به روزترین آگهی</option>
             <option value="" className='CarSectionMain__option'>گرانترین</option>
@@ -18,7 +18,7 @@ export default function CarSectionMain() {
             <option value="" className='CarSectionMain__option'>قدیمی‌ترین سال</option>
             <option value="" className='CarSectionMain__option'>کم کارکرد ترین</option>
           </select>
-        </form>
+        </form> */}
       </div>
     <div className='CarSectionMain__container'>
         <Advertisements />
