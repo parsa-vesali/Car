@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { bodyTypeDatas, colorDatas , bodyCondition } from "../../datas";
+import { bodyTypeDatas, colorDatas, bodyCondition } from "../../datas";
 import SearchIcon from "@mui/icons-material/Search";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
@@ -10,12 +10,13 @@ import AccordionActions from "@mui/material/AccordionActions";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
 import "./SidebarFilterbox.css";
-export default function SidebarFilterbox() {
+
+export default function SidebarFilterbox({ sellers, fillterSellers }) {
   const [BodyTypes, setBodyTypes] = useState(bodyTypeDatas);
   const [Colors, setColor] = useState(colorDatas);
   const [bodyConditions, setbodyCondition] = useState(bodyCondition);
+  const [mainSeller, setMainSeller] = useState("همه");
 
   return (
     <div className="sidebarFilterbox">
@@ -61,9 +62,22 @@ export default function SidebarFilterbox() {
         <div className="filter__box">
           <h2 className="filter__box-btn-title"> فروشنده</h2>
           <ul className="Seller">
-            <li className="Seller__item Seller__item-active">همه</li>
-            <li className="Seller__item">فروشگاهی</li>
-            <li className="Seller__item">شخصی</li>
+            {sellers.map((seller, index) => (
+              <li
+                key={index}
+                onClick={() => {
+                  setMainSeller(seller);
+                  fillterSellers(seller);
+                }}
+                className={
+                  seller === mainSeller
+                    ? " Seller__item Seller__item-active"
+                    : " Seller__item"
+                }
+              >
+                {seller}
+              </li>
+            ))}
           </ul>
         </div>
         <div className="filter__box">

@@ -247,7 +247,7 @@ const postDatas =[
         model : '2012',
         km : '170,000',
         gear : 'اتوماتیک',
-        seller : 'نمایشگاه',
+        seller : 'شخصی',
         address : 'تهران / سعادت آباد',
         price : '2,550,000,000' ,
         mainImg : './img/posts/post-1.webp'
@@ -307,7 +307,7 @@ const postDatas =[
         model : '1402',
         km : 'صفر کیلومتر',
         gear : 'پریمیوم',
-        seller : 'نمایشگاه',
+        seller : 'شخصی',
         address : 'تهران / شهید مطهری  ',
         price : '2,000,000,000' ,
         mainImg : './img/posts/post-6.webp'
@@ -349,7 +349,7 @@ const postDatas =[
         mainImg : './img/posts/post-9.webp'
     },
     {
-        id :9  ,
+        id :10 ,
         title :'هیوندای، النترا ',
         date : 'لحظاتی پیش',
         model : '2018',

@@ -81,27 +81,31 @@
 .Seller {
     margin-top: 2rem;
     width: 100%;
+    height: 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #e8e8e8;
     border-radius: 4rem;
-    padding: .5rem 1.5rem;
+    padding: 1.5rem .5rem;
 }
 
 .Seller__item {
     cursor: pointer;
+    margin: 0 1rem;
+    width: 7rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Seller__item-active {
     border-radius: 4rem;
     background-color: var(--dark-color);
     width: 7rem;
-    padding: .5rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: var(--white-color);
+    transition: all 200ms ease;
 }
 
 .filter__box-price-header {
