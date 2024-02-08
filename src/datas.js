@@ -116,252 +116,293 @@ const brandDatas = [
 
 const articleDatas = [
     {
-        id : 1 ,
-        title : 'معرفی لاماری ایما ',
-        subtitle : 'شرایط خرید و معرفی محصول',
-        mainImg : './img/article-1.webp',
-        createdAt : '1402/4/2'
-    } ,
+        id: 1,
+        title: 'معرفی لاماری ایما ',
+        subtitle: 'شرایط خرید و معرفی محصول',
+        mainImg: './img/article-1.webp',
+        createdAt: '1402/4/2'
+    },
     {
-        id : 2 ,
-        title : 'معرفی لاماری ایما ',
-        subtitle : 'شرایط خرید و معرفی محصول',
-        mainImg : './img/article-2.webp',
-        createdAt : '1402/4/2'
-    } ,
+        id: 2,
+        title: 'معرفی لاماری ایما ',
+        subtitle: 'شرایط خرید و معرفی محصول',
+        mainImg: './img/article-2.webp',
+        createdAt: '1402/4/2'
+    },
     {
-        id : 3 ,
-        title : 'معرفی لاماری ایما ',
-        subtitle : 'شرایط خرید و معرفی محصول',
-        mainImg : './img/article-3.webp',
-        createdAt : '1402/4/2'
-    } ,
+        id: 3,
+        title: 'معرفی لاماری ایما ',
+        subtitle: 'شرایط خرید و معرفی محصول',
+        mainImg: './img/article-3.webp',
+        createdAt: '1402/4/2'
+    },
     {
-        id : 4 ,
-        title : 'معرفی لاماری ایما ',
-        subtitle : 'شرایط خرید و معرفی محصول',
-        mainImg : './img/article-4.webp',
-        createdAt : '1402/4/2'
-    } ,
+        id: 4,
+        title: 'معرفی لاماری ایما ',
+        subtitle: 'شرایط خرید و معرفی محصول',
+        mainImg: './img/article-4.webp',
+        createdAt: '1402/4/2'
+    },
     {
-        id : 5 ,
-        title : 'معرفی لاماری ایما ',
-        subtitle : 'شرایط خرید و معرفی محصول',
-        mainImg : './img/article-5.webp',
-        createdAt : '1402/4/2'
-    } ,
+        id: 5,
+        title: 'معرفی لاماری ایما ',
+        subtitle: 'شرایط خرید و معرفی محصول',
+        mainImg: './img/article-5.webp',
+        createdAt: '1402/4/2'
+    },
 ]
 
 const bodyTypeDatas = [
     {
-        id : 1 ,
-        title : 'سدان'
+        id: 1,
+        title: 'سدان'
     },
     {
-        id : 2 ,
-        title : 'شاسی بلند'
+        id: 2,
+        title: 'شاسی بلند'
     },
     {
-        id : 3 ,
-        title : 'هاچبک'
+        id: 3,
+        title: 'هاچبک'
     },
     {
-        id : 4 ,
-        title : 'وانت'
+        id: 4,
+        title: 'وانت'
     },
     {
-        id : 5 ,
-        title : 'کوپه'
+        id: 5,
+        title: 'کوپه'
     },
     {
-        id : 6 ,
-        title : 'کروک'
+        id: 6,
+        title: 'کروک'
     },
     {
-        id : 7 ,
-        title : 'ون'
+        id: 7,
+        title: 'ون'
     },
 ]
 
 const colorDatas = [
     {
-        id : 1 , 
-        title : 'سفید',
-        color : '#f1f5f9'
+        id: 1,
+        title: 'سفید',
+        color: '#f1f5f9'
     },
     {
-        id : 2 , 
-        title : 'مشکی',
-        color : '#020617'
+        id: 2,
+        title: 'مشکی',
+        color: '#020617'
     },
     {
-        id : 3 , 
-        title : 'خاکستری',
-        color : '#334155'
+        id: 3,
+        title: 'خاکستری',
+        color: '#334155'
     },
     {
-        id : 4 , 
-        title : 'نقره ای',
-        color : '#6b7280'
+        id: 4,
+        title: 'نقره ای',
+        color: '#6b7280'
     },
     {
-        id : 5 , 
-        title : 'قرمز',
-        color : '#dc2626'
+        id: 5,
+        title: 'قرمز',
+        color: '#dc2626'
     },
     {
-        id : 6 , 
-        title : 'آبی',
-        color : '#1d4ed8'
+        id: 6,
+        title: 'آبی',
+        color: '#1d4ed8'
     },
 ]
 
 const bodyCondition = [
     {
-        id : 1,
-        title : 'بدون رنگ',
+        id: 1,
+        title: 'بدون رنگ',
     },
     {
-        id : 2 ,
-        title : 'یک لکه رنگ',
+        id: 2,
+        title: 'یک لکه رنگ',
     },
     {
-        id : 3,
-        title : 'دور رنگ',
+        id: 3,
+        title: 'دور رنگ',
     },
     {
-        id : 4,
-        title : 'گلگیر رنگ',
+        id: 4,
+        title: 'گلگیر رنگ',
     },
     {
-        id : 5,
-        title : 'صافکاری بدون رنگ',
+        id: 5,
+        title: 'صافکاری بدون رنگ',
     }
 ]
 
-const postDatas =[
+const postDatas = [
     {
-        id : 1 ,
-        title : 'بنز، کلاس E',
-        date : 'لحظاتی پیش',
-        model : '2012',
-        km : '170,000',
-        gear : 'اتوماتیک',
-        seller : 'شخصی',
-        address : 'تهران / سعادت آباد',
-        price : '2,550,000,000' ,
-        mainImg : './img/posts/post-1.webp'
+        id: 1,
+        title: 'بنز، کلاس E',
+        date: 'لحظاتی پیش',
+        model: '2012',
+        km: '170,000',
+        gear: 'اتوماتیک',
+        seller: 'شخصی',
+        address: 'تهران / سعادت آباد',
+        price: '2,550,000,000',
+        mainImg: './img/posts/post-1.webp'
     },
     {
-        id : 2 ,
-        title : '206 تیپ 2',
-        date : 'لحظاتی پیش',
-        model : '1398',
-        km : '110,000',
-        gear : 'دنده ای',
-        seller : 'شخصی',
-        address : 'تهران / آریا شهر ',
-        price : '470,000,000' ,
-        mainImg : './img/posts/post-2.webp'
+        id: 2,
+        title: '206 تیپ 2',
+        date: 'لحظاتی پیش',
+        model: '1398',
+        km: '110,000',
+        gear: 'دنده ای',
+        seller: 'شخصی',
+        address: 'تهران / آریا شهر ',
+        price: '470,000,000',
+        mainImg: './img/posts/post-2.webp'
     },
     {
-        id : 3 ,
-        title : 'پورش پانامرا',
-        date : 'لحظاتی پیش',
-        model : '2013',
-        km : '78,000',
-        gear : '4S',
-        seller : 'نمایشگاه',
-        address : 'تهران / میدان بهمن  ',
-        price : '10,000,000,000' ,
-        mainImg : './img/posts/post-3.webp'
+        id: 3,
+        title: 'پورش پانامرا',
+        date: 'لحظاتی پیش',
+        model: '2013',
+        km: '78,000',
+        gear: '4S',
+        seller: 'نمایشگاه',
+        address: 'تهران / میدان بهمن  ',
+        price: '10,000,000,000',
+        mainImg: './img/posts/post-3.webp'
     },
     {
-        id : 4 ,
-        title : ' 207 دنده ای ',
-        date :'لحظاتی پیش',
-        model : '1400',
-        km : '14,0000',
-        gear : 'دنده ای',
-        seller : 'شخصی',
-        address : 'تهران / پیروزی  ',
-        price : '600,000,000' ,
-        mainImg : './img/posts/post-4.webp'
+        id: 4,
+        title: ' 207 دنده ای ',
+        date: 'لحظاتی پیش',
+        model: '1400',
+        km: '14,0000',
+        gear: 'دنده ای',
+        seller: 'شخصی',
+        address: 'تهران / پیروزی  ',
+        price: '600,000,000',
+        mainImg: './img/posts/post-4.webp'
     },
     {
-        id :5  ,
-        title : 'فونیکس، تیگو 7 پرو ',
-        date : 'لحظاتی پیش',
-        model : '1402',
-        km : 'صفر کیلومتر',
-        gear : 'پریمیوم',
-        seller : 'نمایشگاه',
-        address : 'تهران / خیابان رجایی  ',
-        price : '1,900,000,000' ,
-        mainImg : './img/posts/post-5.webp'
+        id: 5,
+        title: 'فونیکس، تیگو 7 پرو ',
+        date: 'لحظاتی پیش',
+        model: '1402',
+        km: 'صفر کیلومتر',
+        gear: 'پریمیوم',
+        seller: 'نمایشگاه',
+        address: 'تهران / خیابان رجایی  ',
+        price: '1,900,000,000',
+        mainImg: './img/posts/post-5.webp'
     },
     {
-        id :6  ,
-        title :'لاماری، ایما',
-        date : 'لحظاتی پیش',
-        model : '1402',
-        km : 'صفر کیلومتر',
-        gear : 'پریمیوم',
-        seller : 'شخصی',
-        address : 'تهران / شهید مطهری  ',
-        price : '2,000,000,000' ,
-        mainImg : './img/posts/post-6.webp'
+        id: 6,
+        title: 'لاماری، ایما',
+        date: 'لحظاتی پیش',
+        model: '1402',
+        km: 'صفر کیلومتر',
+        gear: 'پریمیوم',
+        seller: 'شخصی',
+        address: 'تهران / شهید مطهری  ',
+        price: '2,000,000,000',
+        mainImg: './img/posts/post-6.webp'
     },
     {
-        id :7  ,
-        title :'کی ام سی، T8',
-        date : 'لحظاتی پیش',
-        model : '1402',
-        km : 'صفر کیلومتر',
-        gear : 'دنده ای',
-        seller : 'نمایشگاه',
-        address : 'تهران / شهید مطهری  ',
-        price : '2,200,000,000' ,
-        mainImg : './img/posts/post-7.webp'
+        id: 7,
+        title: 'کی ام سی، T8',
+        date: 'لحظاتی پیش',
+        model: '1402',
+        km: 'صفر کیلومتر',
+        gear: 'دنده ای',
+        seller: 'نمایشگاه',
+        address: 'تهران / شهید مطهری  ',
+        price: '2,200,000,000',
+        mainImg: './img/posts/post-7.webp'
     },
     {
-        id :8  ,
-        title :'مازراتی، کواتروپورته',
-        date : 'لحظاتی پیش',
-        model : '2010',
-        km : '90,000 km',
-        gear : 'GTS',
-        seller : 'نمایشگاه',
-        address : 'تهران / جردن   ',
-        price : 'توافقی' ,
-        mainImg : './img/posts/post-8.webp'
+        id: 8,
+        title: 'مازراتی، کواتروپورته',
+        date: 'لحظاتی پیش',
+        model: '2010',
+        km: '90,000 km',
+        gear: 'GTS',
+        seller: 'نمایشگاه',
+        address: 'تهران / جردن   ',
+        price: 'توافقی',
+        mainImg: './img/posts/post-8.webp'
     },
     {
-        id :9  ,
-        title :'لوتوس، الیزه',
-        date : 'لحظاتی پیش',
-        model : '2015',
-        km : '10,000 km',
-        gear : 'S',
-        seller : 'نمایشگاه',
-        address : 'تهران / جردن   ',
-        price : 'توافقی' ,
-        mainImg : './img/posts/post-9.webp'
+        id: 9,
+        title: 'لوتوس، الیزه',
+        date: 'لحظاتی پیش',
+        model: '2015',
+        km: '10,000 km',
+        gear: 'S',
+        seller: 'نمایشگاه',
+        address: 'تهران / جردن   ',
+        price: 'توافقی',
+        mainImg: './img/posts/post-9.webp'
     },
     {
-        id :10 ,
-        title :'هیوندای، النترا ',
-        date : 'لحظاتی پیش',
-        model : '2018',
-        km : '24,000 km',
-        gear : '2.2 لیتر',
-        seller : 'شخصی',
-        address : 'تهران / آریا شهر   ',
-        price : '2,500,000,000' ,
-        mainImg : './img/posts/post-10.webp'
+        id: 10,
+        title: 'هیوندای، النترا ',
+        date: 'لحظاتی پیش',
+        model: '2018',
+        km: '24,000 km',
+        gear: '2.2 لیتر',
+        seller: 'شخصی',
+        address: 'تهران / آریا شهر   ',
+        price: '2,500,000,000',
+        mainImg: './img/posts/post-10.webp'
     },
 ]
 
+const cityDatas = [
+    {
+        id: 1,
+        title: 'تهران'
+    },
+    {
+        id: 2,
+        title: 'خراسان رضوی'
+    },
+    {
+        id: 3,
+        title: 'اصفهان'
+    },
+    {
+        id: 4,
+        title: 'البرز'
+    },
+    {
+        id: 5,
+        title: 'فارس'
+    },
+    {
+        id: 6,
+        title: 'آذربایجان شرقی'
+    },
+    {
+        id: 7,
+        title: 'خوزستان'
+    },
+    {
+        id: 8,
+        title: 'گیلان'
+    },
+    {
+        id: 9,
+        title: 'هرمزگان'
+    },
+    {
+        id: 10,
+        title: 'همدان'
+    },
+]
 
-
-export { SliderData, populaModelDatas, brandDatas , articleDatas , bodyTypeDatas , colorDatas ,bodyCondition ,postDatas}
+export { SliderData, populaModelDatas, brandDatas, articleDatas, bodyTypeDatas, colorDatas, bodyCondition, postDatas, cityDatas }

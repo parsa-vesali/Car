@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import Slider from "@mui/material/Slider";
-import { Link } from "react-router-dom";
 import Modal from "react-bootstrap/Modal";
 import { brandDatas } from "../../datas";
 import "./Filterbox.css";
@@ -11,7 +11,7 @@ function valuetext(value) {
 }
 
 export default function Filterbox() {
-  const [BrandDatas , setBrandDatas] = useState(brandDatas)
+  const [BrandDatas, setBrandDatas] = useState(brandDatas);
   const [value, setValue] = React.useState([0, 100]);
   const [lgShow, setLgShow] = useState(false);
   const handleChange = (event, newValue) => {
@@ -52,23 +52,19 @@ export default function Filterbox() {
                 />
               </div>
               <ul className="modal__list">
-               {
-                BrandDatas.map(BrandData => (
+                {BrandDatas.map((BrandData) => (
                   <Link to={"/"} className="link modal__link">
-                  <li className="modal__items">
-                    <div className="modal__item-right">
-                      <span className="modal__svg">
-                        {BrandData.logoSvg}
-                      </span>
-                      {BrandData.title}
-                    </div>
-                    <div className="modal__item-left">
-                      <ChevronLeftIcon className="modal__icon" />
-                    </div>
-                  </li>
-                </Link>
-                ))
-               }
+                    <li className="modal__items">
+                      <div className="modal__item-right">
+                        <span className="modal__svg">{BrandData.logoSvg}</span>
+                        {BrandData.title}
+                      </div>
+                      <div className="modal__item-left">
+                        <ChevronLeftIcon className="modal__icon" />
+                      </div>
+                    </li>
+                  </Link>
+                ))}
               </ul>
             </Modal.Body>
           </Modal>
