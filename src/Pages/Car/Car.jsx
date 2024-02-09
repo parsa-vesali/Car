@@ -1,5 +1,5 @@
 import React from 'react'
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
+import Breadcrumb from '../../Components/common/Breadcrumb/Breadcrumb'
 import CarSectionMain from '../../Components/CarPageMain/CarSectionMain'
 export default function Car() {
   return (

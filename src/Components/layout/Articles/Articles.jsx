@@ -1,5 +1,5 @@
 import React , {useState} from "react";
-import {articleDatas} from '../../datas'
+import {articleDatas} from '../../../datas'
 import { Link } from "react-router-dom";
 import TurnedInNotIcon from '@mui/icons-material/TurnedInNot';
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";

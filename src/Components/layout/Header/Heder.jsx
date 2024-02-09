@@ -1,8 +1,8 @@
 import React from "react";
-import HeaderSlider from "../sliders/HeaderSlider/HeaderSlider";
-import SearchBar from "../SearchBar/SearchBar";
-import Filterbox from "../FilterBox/Filterbox";
-import TypeWraiterHeader from "../TypeWriter/TypewriterHeader";
+import HeaderSlider from "../../sliders/HeaderSlider/HeaderSlider";
+import SearchBar from "../../SearchBar/SearchBar";
+import Filterbox from "../../FilterBox/Filterbox";
+import TypeWraiterHeader from "../../TypeWriter/TypewriterHeader";
 import "./Header.css";
 
 export default function Heder() {

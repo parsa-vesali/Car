@@ -1,9 +1,9 @@
 import React from 'react'
-import Heder from '../../Components/Header/Heder'
-import PopularModel from '../../Components/PopularModel/PopularModel'
+import Heder from '../../Components/layout/Header/Heder'
+import PopularModel from '../../Components/layout/PopularModel/PopularModel'
 import UpdatedPrice from '../../Components/UpdatedPrice/UpdatedPrice'
-import Articles from '../../Components/Articles/Articles'
-import Footer from '../../Components/Footer/Footer'
+import Articles from '../../Components/layout/Articles/Articles'
+import Footer from '../../Components/layout/Footer/Footer'
 import './Home.css'
 export default function Home() {
   return (

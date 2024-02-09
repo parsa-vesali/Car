@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Technical from '../../Components/Technical/Technical'
+import Technical from "../layout/Technical/Technical";
 import { brandDatas } from "../../datas";
 import ShowChartIcon from "@mui/icons-material/ShowChart";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';

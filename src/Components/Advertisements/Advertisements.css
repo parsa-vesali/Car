@@ -55,9 +55,11 @@
     font-size: 1.3rem !important;
     font-family: 'Dana' !important;
 }
+
 .Chip-green {
     background-color: var(--primary-color) !important;
 }
+
 .advertisements__box-property {
     display: flex;
     align-items: center;
@@ -91,9 +93,6 @@
     font-size: 1.8rem;
     font-weight: bold;
 }
-
-
-
 
 .advertisements__mobile {
     width: 100%;
