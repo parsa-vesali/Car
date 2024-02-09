@@ -146,6 +146,13 @@ body {
     .advertisements__mobile {
         display: block;
     }
+    .advertisements__box-mobile-left {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: space-between;
+        gap: 1rem;
+    }
 }
 @media screen and (max-width : 768px) {
     .nav {
@@ -210,6 +217,9 @@ body {
     }
     .CarSectionMain__header {
         padding: 0;
+        margin-top: 1rem;
+    }
+    .CarSectionMain__container {
         margin-top: 1rem;
     }
     .CarSectionMain__header-title {
@@ -348,5 +358,26 @@ body {
 
     .advertisements__box {
         border-bottom: 8px solid #f5f5f5;
+    }
+    .advertisements__box-img {
+        width: 14rem;
+    }
+    .advertisements__box-img img {
+        height: 70%;
+    }
+    .advertisements__box-title {
+        font-size: 1.5rem;
+    }
+    .advertisements__box-title-date {
+        font-size: 1rem;
+    }
+    .advertisements__box-Property-text {
+        font-size: 1.3rem;
+    }
+    .Chip {
+        font-size: 1rem !important;
+    }
+    .advertisements__box-price-text {
+        font-size: 1.5rem;
     }
 }

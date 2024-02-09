@@ -103,4 +103,6 @@
 .advertisements__box-mobile {
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 8px solid #f5f5f5;
 }
