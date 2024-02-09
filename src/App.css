@@ -130,8 +130,21 @@ body {
     .sidebarFilterbox {
         display: none;
     }
+    .CarSectionMain__container {
+        padding: 0;
+    }
+    .CarSectionMain__header {
+        padding: 0;
+        margin-top: 3rem;
+    }
+    .CarSectionMain__header-title {
+        font-size: 2rem;
+    }
     .advertisements {
         display: none;
+    }
+    .advertisements__mobile {
+        display: block;
     }
 }
 @media screen and (max-width : 768px) {

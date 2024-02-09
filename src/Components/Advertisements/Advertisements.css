@@ -94,6 +94,13 @@
 
 
 
+
 .advertisements__mobile {
     width: 100%;
+    display: none;
+}
+
+.advertisements__box-mobile {
+    display: flex;
+    justify-content: space-between;
 }
