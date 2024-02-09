@@ -77,7 +77,12 @@ body {
         width: 60%;
     }
 
-
+    .CarSectionMain__header {
+        padding: 0 2rem;
+    }
+    .CarSectionMain__container {
+        padding: 0 2rem;
+    }
 }
 @media screen and (max-width : 992px) {
     .container {
@@ -121,6 +126,12 @@ body {
     }
     .updatedPrice {
         width: 100%;
+    }
+    .sidebarFilterbox {
+        display: none;
+    }
+    .advertisements {
+        display: none;
     }
 }
 @media screen and (max-width : 768px) {
@@ -179,6 +190,17 @@ body {
     }
     .footer__socials {
         order: 2;
+    }
+    .BreadcrumbAlert {
+        font-size: 1.2rem;
+        column-gap: .5rem;
+    }
+    .CarSectionMain__header {
+        padding: 0;
+        margin-top: 1rem;
+    }
+    .CarSectionMain__header-title {
+        font-size: 1.4rem;
     }
 }
 @media screen and (max-width : 576px) {
@@ -311,4 +333,7 @@ body {
         order: 2;
     }
 
+    .advertisements__box {
+        border-bottom: 8px solid #f5f5f5;
+    }
 }

@@ -28,6 +28,7 @@ export default function SidebarFilterbox({ sellers, fillterSellers }) {
   const [cites, setCites] = useState(cityDatas);
 
   return (
+   <>
     <div className="sidebarFilterbox">
       <div className="sideBarDilterbox__header">
         <button className="sideBarDilterbox__header-btn">
@@ -292,5 +293,6 @@ export default function SidebarFilterbox({ sellers, fillterSellers }) {
         </div>
       </div>
     </div>
+   </>
   );
 }
