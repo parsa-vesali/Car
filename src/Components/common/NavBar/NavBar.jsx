@@ -105,7 +105,7 @@ export default function NavBar() {
               </ul>
             </div>
             <div className="nav__left">
-              <Link to={"/signUp"} className="nav__account link nav__menu-item">
+              <Link to={"/login"} className="nav__account link nav__menu-item">
                 <PersonIcon />
                 حساب کاربری
                 <KeyboardArrowDownIcon />
@@ -201,7 +201,7 @@ export default function NavBar() {
                 ثبت آگهی
               </Link>
               <br />
-              <Link to={"/signUp"} className="nav__add-post link">
+              <Link to={"/login"} className="nav__add-post link">
                 <PersonIcon className="nav__add-post-icon" />
                 حساب کاربری
               </Link>
