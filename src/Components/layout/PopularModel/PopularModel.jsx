@@ -35,10 +35,10 @@ export default function PopularModel() {
         <div className="popularModel__images">
           {getRandomImages().map((popularData) => (
             <img
+            key={popularData.id}
               className="popularModel__image"
               src={popularData.srcImg}
               alt="popularImg"
-              key={popularData.id}
             />
           ))}
         </div>
@@ -65,12 +65,11 @@ export default function PopularModel() {
             }}
           >
             {getRandomImages().map((popularData) => (
-              <SwiperSlide>
+              <SwiperSlide key={popularData.id}>
                 <img
                   className="popularModel__image"
                   src={popularData.srcImg}
                   alt="popularImg"
-                  key={popularData.id}
                 />
               </SwiperSlide>
             ))}

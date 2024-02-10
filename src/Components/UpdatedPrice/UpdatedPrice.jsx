@@ -48,7 +48,7 @@ export default function UpdatedPrice() {
             }}
           >
             {Datas.map((data) => (
-              <SwiperSlide className="updatedPrice__slide">
+              <SwiperSlide key={data.id} className="updatedPrice__slide">
                 <span className="updatedPrice__slide-icon">{data.logoSvg}</span>
                 <h2 className="updatedPrice__slide-title">{data.title}</h2>
                 <div className="updatedPrice__slide-price-icon">

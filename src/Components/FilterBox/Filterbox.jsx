@@ -53,7 +53,7 @@ export default function Filterbox() {
               </div>
               <ul className="modal__list">
                 {BrandDatas.map((BrandData) => (
-                  <Link to={"/"} className="link modal__link">
+                  <Link to={"/"} key={BrandData.id} className="link modal__link">
                     <li className="modal__items">
                       <div className="modal__item-right">
                         <span className="modal__svg">{BrandData.logoSvg}</span>

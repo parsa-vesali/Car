@@ -158,7 +158,7 @@
 
 .nav-mobile__list {
     display: block;
-    position: absolute;
+    position: fixed;
     padding: 1.2rem 1.6rem;
     width: 26rem;
     top: 0;

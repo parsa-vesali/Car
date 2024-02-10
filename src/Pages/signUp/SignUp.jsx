@@ -10,7 +10,8 @@ export default function SingUp() {
   return (
    <>
    <NavBar />
-    <div className="SingUp">
+   <div className="container">
+   <div className="SingUp">
       <Link to={"/"} className="nav__logo link">
         <img src="./img/racing.png" alt="logo" className="nav__logo-img" />
         <span>C</span>AR
@@ -55,6 +56,7 @@ export default function SingUp() {
         </Link>
       </p>
     </div>
+   </div>
    </>
   );
 }
