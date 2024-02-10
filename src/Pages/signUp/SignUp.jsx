@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar from "../../Components/common/NavBar/NavBar";
 import "./SignUp.css";
 import { Link } from "react-router-dom";
 import Form from "react-bootstrap/Form";
@@ -7,6 +8,8 @@ import { FaFacebook } from "react-icons/fa";
 
 export default function SingUp() {
   return (
+   <>
+   <NavBar />
     <div className="SingUp">
       <Link to={"/"} className="nav__logo link">
         <img src="./img/racing.png" alt="logo" className="nav__logo-img" />
@@ -52,5 +55,6 @@ export default function SingUp() {
         </Link>
       </p>
     </div>
+   </>
   );
 }
