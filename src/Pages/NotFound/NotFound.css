@@ -1,0 +1,27 @@
+.NotFound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+.NotFound__img{
+    width: 40rem;
+}
+.NotFound__img img {
+    width: 100%;
+}
+.NotFound__title{
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 5rem 0;
+}
+.NotFound__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    column-gap: 1rem;
+    color: var(--dark-color);
+    cursor: pointer;
+}
