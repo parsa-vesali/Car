@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../../Components/common/NavBar/NavBar";
+import Footer from "../../Components/layout/Footer/Footer";
 import Breadcrumb from "../../Components/common/Breadcrumb/Breadcrumb";
 import ShareIcon from "@mui/icons-material/Share";
 import BookmarkAddIcon from "@mui/icons-material/BookmarkAdd";
@@ -13,6 +14,7 @@ import { IoSpeedometerOutline } from "react-icons/io5";
 import { TbSteeringWheel } from "react-icons/tb";
 import { LiaBrushSolid } from "react-icons/lia";
 import { IoCarSportOutline } from "react-icons/io5";
+import GppGoodIcon from "@mui/icons-material/GppGood";
 
 import { useParams } from "react-router-dom";
 import "./MainPost.css";
@@ -121,12 +123,67 @@ export default function MainPost() {
                 <p className="MainPost__information-text">بدون رنگ</p>
               </div>
             </div>
-
-
           </div>
-          <div className="MainPost__left"></div>
+
+          <div className="MainPost__left">
+            <div className="MainPost__slider">
+              <img src="./img/posts/post-1.webp" alt="car img" />
+            </div>
+
+            <div className="MainPost__description">
+              <div className="MainPost__description-title">توضیحات</div>
+              <div className="MainPost__description-text">
+                تنها نمونه موجود در ایران داخل دیزاینو قرمز فول به شرط کارشناسی
+              </div>
+            </div>
+
+            <div className="MainPost__technical">
+              <ul className="MainPost__technical-list">
+                <li className="MainPost__technical-item">
+                  <p className="MainPost__technical-item-text">حجم موتور</p>
+                  <h2 className="MainPost__technical-title">4.7 لیتر</h2>
+                </li>
+                <li className="MainPost__technical-item">
+                  <p className="MainPost__technical-item-text">پیشرانه</p>
+                  <h2 className="MainPost__technical-title">
+                    8 سیلندر تویین توربوشارژ
+                  </h2>
+                </li>
+                <li className="MainPost__technical-item">
+                  <p className="MainPost__technical-item-text">شتاب</p>
+                  <h2 className="MainPost__technical-title">5.2 ثانیه</h2>
+                </li>
+                <li className="MainPost__technical-item">
+                  <p className="MainPost__technical-item-text">مصرف ترکیبی</p>
+                  <h2 className="MainPost__technical-title">
+                    9 لیتر در صد کیلومتر
+                  </h2>
+                </li>
+              </ul>
+              <a href="#">
+                مشاهده مشخات فنی بیشتر...
+                <WestIcon />
+              </a>
+            </div>
+
+            <div className="MainPost__report">
+              <div className="MainPost__report-right">
+                <p className="MainPost__report-text">
+                  <span className="MainPost__report-icon">
+                  <GppGoodIcon />
+                  </span>
+                  پیش از بازدید خودرو و اطمینان از صحت مدارک، از پرداخت وجه
+                  خودداری نمایید.
+                </p>
+              </div>
+              <div className="MainPost__report-letf">
+                <button className="MainPost__report-btn">گزارش اشكال آگهی!</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
