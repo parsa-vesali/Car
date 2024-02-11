@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../../Components/common/NavBar/NavBar'
 import Breadcrumb from '../../Components/common/Breadcrumb/Breadcrumb'
-import CarSectionMain from '../../Components/CarPageMain/CarSectionMain'
+import CarSectionMain from '../../Components/CarSectionMain/CarSectionMain'
 export default function Car() {
   return (
    <>
