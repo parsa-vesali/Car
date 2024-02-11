@@ -3,7 +3,7 @@ import Car from "./Pages/Car/Car";
 import SingUp from "./Pages/signUp/SignUp";
 import Login from "./Pages/Login/Login";
 import NotFound from "./Pages/NotFound/NotFound";
-import MainPost from "./Pages/MainPost/MainPost";
+import MainPost from "./Components/MainPost/MainPost";
 let routes = [
     {path : '/' , element : <Home />},
     {path : '/car' , element : <Car />},

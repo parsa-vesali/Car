@@ -1,7 +1,8 @@
 import React from "react";
-import NavBar from "../../Components/common/NavBar/NavBar";
-import Footer from "../../Components/layout/Footer/Footer";
-import Breadcrumb from "../../Components/common/Breadcrumb/Breadcrumb";
+import { useParams } from "react-router-dom";
+import Footer from "../layout/Footer/Footer";
+import Breadcrumb from "../common/Breadcrumb/Breadcrumb";
+import { postDatas } from "../../datas";
 import ShareIcon from "@mui/icons-material/Share";
 import BookmarkAddIcon from "@mui/icons-material/BookmarkAdd";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -15,38 +16,41 @@ import { TbSteeringWheel } from "react-icons/tb";
 import { LiaBrushSolid } from "react-icons/lia";
 import { IoCarSportOutline } from "react-icons/io5";
 import GppGoodIcon from "@mui/icons-material/GppGood";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
-import { useParams } from "react-router-dom";
 import "./MainPost.css";
 
 export default function MainPost() {
   let params = useParams();
-
+  let mainPostData = postDatas.find(post => post.id == params.postId)
   return (
     <>
-      <NavBar />
       <div className="container">
         <Breadcrumb page={"خرید خودرو"} />
         <div className="MainPost">
           <div className="MainPost__right">
             <div className="MainPost__header">
-              <h2 className="MainPost__title">بنز، کلاس CLS</h2>
+              <h2 className="MainPost__title">{mainPostData.title}</h2>
               <span className="MainPost__header-icons">
                 <ShareIcon />
                 <BookmarkAddIcon />
               </span>
             </div>
             <div className="MainPost__Property">
-              <p className="MainPost__Property-text">2013</p>
-              <p className="MainPost__Property-text">CLS500</p>
+              <p className="MainPost__Property-text">{mainPostData.model}</p>
+              <p className="MainPost__Property-text">{mainPostData.gear}</p>
             </div>
-            <p className="MainPost__date">6 روز پیش</p>
+            <p className="MainPost__date">{mainPostData.date} </p>
             <div className="MainPost__price-address">
               <p className="MainPost__address">
-                تهران / ولنجک
+              {mainPostData.address}
                 <LocationOnIcon />
               </p>
-              <p className="MainPost__price">توافقی</p>
+              <p className="MainPost__price">{mainPostData.price}</p>
             </div>
 
             <button className="app__btn MainPost__btn">
@@ -98,7 +102,7 @@ export default function MainPost() {
                   <IoSpeedometerOutline />
                 </span>
                 <p className="MainPost__information-title">کارکرد</p>
-                <p className="MainPost__information-text">12,000 km</p>
+                <p className="MainPost__information-text">{mainPostData.km}</p>
               </div>
 
               <div className="MainPost__information-box">
@@ -129,7 +133,22 @@ export default function MainPost() {
 
           <div className="MainPost__left">
             <div className="MainPost__slider">
-              <img src="./img/posts/post-1.webp" alt="car img" />
+              <Swiper
+                cssMode={true}
+                slidesPerView={1}
+                spaceBetween={30}
+                loop={true}
+                pagination={{
+                  clickable: true,
+                }}
+                navigation={true}
+                modules={[Pagination, Navigation]}
+                className="mySwiper"
+              >
+                <SwiperSlide>
+                  <img src={`../${mainPostData.mainImg}`} alt="slide" />
+                </SwiperSlide>
+              </Swiper>
             </div>
 
             <div className="MainPost__description">
