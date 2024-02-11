@@ -195,3 +195,45 @@
     font-size: 1.4rem;
     margin: 1rem 0;
 }
+
+.MainPost__report {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MainPost__report-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    column-gap: .5rem;
+}
+.MainPost__report-icon{
+    width: 3rem;
+    height: 3rem;
+    background-color:#020617;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.MainPost__report-icon svg {
+    font-size: 2rem;
+    color:#10b981;
+}
+
+.MainPost__report-btn {
+    padding: 1rem 1.5rem;
+    border-radius: 4rem;
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 1px solid var(--gray-color);
+    transition: all 200ms ease;
+}
+.MainPost__report-btn:hover {
+    background-color: var(--gray-color);
+}
