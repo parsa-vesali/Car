@@ -46,6 +46,15 @@ body {
     color: var(--dark-color);
 }
 
+.app__link {
+    text-decoration: none;
+    color: #3b82f6;
+    transition: all 200ms ease;
+}
+
+.app__link:hover {
+    color: #1e3a8a;
+}
 
 .modal__input {
     padding: 1rem 2rem;

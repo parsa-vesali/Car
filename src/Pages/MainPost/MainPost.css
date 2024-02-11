@@ -1,0 +1,197 @@
+.MainPost {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5rem;
+    padding: 0 10rem;
+    margin-top: 5rem;
+}
+
+.MainPost__right {
+    width: 30rem;
+}
+
+.MainPost__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MainPost__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.MainPost__header-icons {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.MainPost__header-icons svg {
+    font-size: 1.8rem;
+}
+
+.MainPost__Property {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin: 1rem 0;
+}
+
+.MainPost__date {
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
+
+.MainPost__price-address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #f4f5f2;
+}
+
+.MainPost__address {
+    font-size: 1.4rem;
+}
+
+.MainPost__price {
+    font-weight: bold;
+}
+
+.MainPost__btn {
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    column-gap: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainPost__btn svg {
+    font-size: 1.8rem;
+}
+
+.MainPost__seller {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 2rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f4f5f2;
+}
+
+.MainPost__seller-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.MainPost__seller-subtitle {
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.MainPost__seller-link {
+    margin-top: 1.5rem;
+    display: flex;
+    column-gap: .5rem;
+}
+
+.MainPost__seller-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: var(--gray-color);
+    border-radius: 50%;
+
+}
+
+.MainPost__seller-icon svg {
+    color: var(--text-color);
+    font-size: 1.8rem;
+}
+
+.MainPost__information {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem 2rem;
+    margin: 2rem 0;
+}
+
+.MainPost__information-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.MainPost__information-icon {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: var(--gray-color);
+    color: var(--dark-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.MainPost__information-icon svg {
+    font-size: 1.8rem;
+}
+
+.MainPost__information-title {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: .5rem;
+}
+
+.MainPost__information-text {
+    font-weight: bold;
+}
+
+
+
+.MainPost__slider {
+    width: 70rem;
+    height: 40rem;
+    background-color: var(--dark-color);
+}
+
+.MainPost__description {
+    border-bottom: 1px solid #f4f5f2;
+    padding: 2rem 0;
+}
+
+.MainPost__description-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.MainPost__description-text {
+    color: var(--text-color);
+}
+
+.MainPost__technical {
+    padding: 2rem 0;
+    border-bottom: 1px solid #f4f5f2; 
+}
+
+.MainPost__technical-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.MainPost__technical-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.MainPost__technical-item-text {
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}

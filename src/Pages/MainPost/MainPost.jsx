@@ -62,9 +62,11 @@ export default function MainPost() {
                 <p className="MainPost__seller-subtitle">
                   تهران، ولنجک، نبش خیابان چهاردهم -پلا..
                 </p>
-                <a href="#" className="MainPost__seller-link">
+                <a href="#" className="MainPost__seller-link app__link">
                   20 آگهی از این نمایشگاه
-                  <WestIcon />
+                  <span className="MainPost__seller-link-icon">
+                    <WestIcon />
+                  </span>
                 </a>
               </div>
               <div className="MainPost__seller-left">
@@ -138,6 +140,7 @@ export default function MainPost() {
             </div>
 
             <div className="MainPost__technical">
+              <h2 className="MainPost__technical-title">مشخصات فنی</h2>
               <ul className="MainPost__technical-list">
                 <li className="MainPost__technical-item">
                   <p className="MainPost__technical-item-text">حجم موتور</p>
@@ -160,9 +163,11 @@ export default function MainPost() {
                   </h2>
                 </li>
               </ul>
-              <a href="#">
-                مشاهده مشخات فنی بیشتر...
-                <WestIcon />
+              <a href="#" className="MainPost__seller-link app__link">
+                مشاهده مشخات فنی بیشتر
+                <span className="MainPost__seller-link-icon">
+                  <WestIcon />
+                </span>
               </a>
             </div>
 
@@ -170,14 +175,16 @@ export default function MainPost() {
               <div className="MainPost__report-right">
                 <p className="MainPost__report-text">
                   <span className="MainPost__report-icon">
-                  <GppGoodIcon />
+                    <GppGoodIcon />
                   </span>
                   پیش از بازدید خودرو و اطمینان از صحت مدارک، از پرداخت وجه
                   خودداری نمایید.
                 </p>
               </div>
               <div className="MainPost__report-letf">
-                <button className="MainPost__report-btn">گزارش اشكال آگهی!</button>
+                <button className="MainPost__report-btn">
+                  گزارش اشكال آگهی!
+                </button>
               </div>
             </div>
           </div>
