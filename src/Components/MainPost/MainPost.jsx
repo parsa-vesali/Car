@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import NavBar from "../common/NavBar/NavBar";
 import Footer from "../layout/Footer/Footer";
 import Breadcrumb from "../common/Breadcrumb/Breadcrumb";
 import { postDatas } from "../../datas";
@@ -29,6 +30,7 @@ export default function MainPost() {
   let mainPostData = postDatas.find(post => post.id == params.postId)
   return (
     <>
+    <NavBar />
       <div className="container">
         <Breadcrumb page={"خرید خودرو"} />
         <div className="MainPost">
@@ -143,11 +145,14 @@ export default function MainPost() {
                 }}
                 navigation={true}
                 modules={[Pagination, Navigation]}
-                className="mySwiper"
+                className="mySwiper MainPost__swiper"
               >
-                <SwiperSlide>
-                  <img src={`../${mainPostData.mainImg}`} alt="slide" />
+                {mainPostData.slideImg.map(slideimg => (
+                  <SwiperSlide className="MainPost__swiper-slide">
+                  <img src={`../${slideimg.src}`} alt="slide" className="MainPost__swiper-slide-img" />
                 </SwiperSlide>
+                ))}
+              
               </Swiper>
             </div>
 

@@ -250,7 +250,18 @@ const postDatas = [
         seller: 'شخصی',
         address: 'تهران / سعادت آباد',
         price: '2,550,000,000',
-        mainImg: './img/posts/post-1.webp'
+        mainImg: './img/posts/post-1.webp',
+        slideImg : [
+            {
+                src : './img/posts/post-1-slide-1.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-2.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-3.webp',
+            },
+        ]
     },
     {
         id: 2,
@@ -262,7 +273,18 @@ const postDatas = [
         seller: 'شخصی',
         address: 'تهران / آریا شهر ',
         price: '470,000,000',
-        mainImg: './img/posts/post-2.webp'
+        mainImg: './img/posts/post-2.webp',
+        slideImg : [
+            {
+                src : './img/posts/post-2-slide-1.webp',
+            },
+            {
+                src : './img/posts/post-2-slide-2.webp',
+            },
+            {
+                src : './img/posts/post-2-slide-3.webp',
+            },
+        ]
     },
     {
         id: 3,
@@ -274,7 +296,21 @@ const postDatas = [
         seller: 'نمایشگاه',
         address: 'تهران / میدان بهمن  ',
         price: '10,000,000,000',
-        mainImg: './img/posts/post-3.webp'
+        mainImg: './img/posts/post-3-slide-4.webp',
+        slideImg : [
+            {
+                src : './img/posts/post-3-slide-4.webp',
+            },
+            {
+                src : './img/posts/post-3-slide-1.webp',
+            },
+            {
+                src : './img/posts/post-3-slide-2.webp',
+            },
+            {
+                src : './img/posts/post-3-slide-3.webp',
+            },
+        ]
     },
     {
         id: 4,
@@ -286,7 +322,18 @@ const postDatas = [
         seller: 'شخصی',
         address: 'تهران / پیروزی  ',
         price: '600,000,000',
-        mainImg: './img/posts/post-4.webp'
+        mainImg: './img/posts/post-4.webp',
+        slideImg : [
+            {
+                src : './img/posts/post-4-slide-1.webp',
+            },
+            {
+                src : './img/posts/post-4-slide-2.webp',
+            },
+            {
+                src : './img/posts/post-4-slide-3.webp',
+            },
+        ]
     },
     {
         id: 5,
