@@ -1,0 +1,32 @@
+.Message{
+    animation: Message 300ms ease-in-out;
+    margin-right: 3rem;
+    opacity: 1;
+}
+.Message__header{
+    background-color: var(--primary-color);
+}
+.Message__body{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    column-gap: .5rem;
+    color: #ef4444;
+    justify-content: start
+}
+.Message__title{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.Message__icon{}
+
+@keyframes Message {
+    0% {
+       opacity: 0;
+       margin-right: 0;
+    }
+    100% {
+       opacity: 1;
+       margin-right: 3rem;
+    }
+}

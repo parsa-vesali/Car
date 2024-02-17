@@ -31,16 +31,7 @@ export default function SearchBar() {
           </div>
           <ul className="modal__list">
             <li className="modal__item">
-              <Link to={'/'} className="link" >پژو</Link>
-            </li>  
-            <li className="modal__item">
-              <Link to={'/'} className="link" >207 </Link>
-            </li>  
-            <li className="modal__item">
-              <Link to={'/'} className="link" >405</Link>
-            </li>  
-            <li className="modal__item">
-              <Link to={'/'} className="link" >206</Link>
+              <Link to={'/'} className="link" ></Link>
             </li>  
           </ul>
         </Modal.Body>

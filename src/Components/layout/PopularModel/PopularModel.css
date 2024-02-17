@@ -67,6 +67,6 @@
 }
 
 .popularModel__image-parent:hover .popularImg-text {
-    bottom: 10rem;
+    bottom: 1.5rem;
     opacity: 1;
 }
