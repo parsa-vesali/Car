@@ -616,4 +616,7 @@ body {
     .MainPost__information-text {
         font-size: 1.3rem;
     }
+    .AboutUs {
+        margin: 4rem 1rem ;
+    }
 }

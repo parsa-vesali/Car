@@ -99,7 +99,7 @@ export default function NavBar() {
                 <Link to={"/"} className="link">
                   <span className="nav__menu-item">مقالات</span>
                 </Link>
-                <Link to={"/"} className="link">
+                <Link to={"/abouteUs"} className="link">
                   <span className="nav__menu-item">درباره ما</span>
                 </Link>
               </ul>

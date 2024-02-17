@@ -1,0 +1,26 @@
+.AboutUs {
+    margin: 5rem 20rem;
+}
+
+.AboutUs__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.AboutUs__subtitle {
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.AboutUs__text {
+    margin: 2rem 0;
+}
+
+.AboutUs__footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.AboutUs__footer  img {
+    width: 10rem;
+}
