@@ -231,6 +231,9 @@ body {
         width: 20rem;
         font-size: 1.6rem;
     }
+    .AboutUs {
+        margin: 4rem 5rem ;
+    }
 
 }
 
@@ -340,6 +343,9 @@ body {
     .MainPost__report-btn {
         font-size: 1.1rem;
         padding: 1rem .5rem;
+    }
+    .AboutUs {
+        margin: 4rem 1rem ;
     }
 }
 

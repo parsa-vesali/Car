@@ -345,7 +345,18 @@ const postDatas = [
         seller: 'نمایشگاه',
         address: 'تهران / خیابان رجایی  ',
         price: '1,900,000,000',
-        mainImg: './img/posts/post-5.webp'
+        mainImg: './img/posts/post-5.webp',
+        slideImg : [
+            {
+                src : './img/posts/post-1-slide-1.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-2.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-3.webp',
+            },
+        ]
     },
     {
         id: 6,
@@ -357,7 +368,18 @@ const postDatas = [
         seller: 'شخصی',
         address: 'تهران / شهید مطهری  ',
         price: '2,000,000,000',
-        mainImg: './img/posts/post-6.webp'
+        mainImg: './img/posts/post-6.webp',
+         slideImg : [
+            {
+                src : './img/posts/post-1-slide-1.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-2.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-3.webp',
+            },
+        ]
     },
     {
         id: 7,
@@ -369,7 +391,18 @@ const postDatas = [
         seller: 'نمایشگاه',
         address: 'تهران / شهید مطهری  ',
         price: '2,200,000,000',
-        mainImg: './img/posts/post-7.webp'
+        mainImg: './img/posts/post-7.webp',
+         slideImg : [
+            {
+                src : './img/posts/post-1-slide-1.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-2.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-3.webp',
+            },
+        ]
     },
     {
         id: 8,
@@ -381,7 +414,18 @@ const postDatas = [
         seller: 'نمایشگاه',
         address: 'تهران / جردن   ',
         price: 'توافقی',
-        mainImg: './img/posts/post-8.webp'
+        mainImg: './img/posts/post-8.webp',
+         slideImg : [
+            {
+                src : './img/posts/post-1-slide-1.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-2.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-3.webp',
+            },
+        ]
     },
     {
         id: 9,
@@ -393,7 +437,18 @@ const postDatas = [
         seller: 'نمایشگاه',
         address: 'تهران / جردن   ',
         price: 'توافقی',
-        mainImg: './img/posts/post-9.webp'
+        mainImg: './img/posts/post-9.webp',
+         slideImg : [
+            {
+                src : './img/posts/post-1-slide-1.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-2.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-3.webp',
+            },
+        ]
     },
     {
         id: 10,
@@ -405,7 +460,18 @@ const postDatas = [
         seller: 'شخصی',
         address: 'تهران / آریا شهر   ',
         price: '2,500,000,000',
-        mainImg: './img/posts/post-10.webp'
+        mainImg: './img/posts/post-10.webp',
+         slideImg : [
+            {
+                src : './img/posts/post-1-slide-1.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-2.webp',
+            },
+            {
+                src : './img/posts/post-1-slide-3.webp',
+            },
+        ]
     },
 ]
 

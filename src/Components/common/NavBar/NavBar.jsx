@@ -19,7 +19,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TelegramIcon from "@mui/icons-material/Telegram";
-
+import InfoIcon from '@mui/icons-material/Info';
 export default function NavBar() {
   const [showMenu, setShowMenu] = useState(false);
   return (
@@ -189,10 +189,14 @@ export default function NavBar() {
                 <BuildIcon className="nav__submenu-icon" />
                 مشخصات فنی خودرو
               </a>
-              <a href="#" className="nav__submneu-item link">
+              <Link to={'/'} className="nav__submneu-item link">
                 <NewspaperIcon className="nav__submenu-icon" />
                 اخبار خودرو
-              </a>
+              </Link>
+              <Link to={'/abouteUs'} className="nav__submneu-item link">
+                <InfoIcon className="nav__submenu-icon" />
+                درباره ما
+              </Link>
             </div>
 
             <div className="nav-mobile__list-btns">
