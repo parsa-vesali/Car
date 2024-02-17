@@ -1,0 +1,49 @@
+* {
+    font-family: 'Dana' !important;
+}
+
+.tab {
+    font-size: 1.6rem !important;
+
+}
+
+.Articles__slider-wrapper {
+    width: 70%;
+    height: 40rem;
+    margin: 2rem auto;
+}
+.Articles__slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.Articles__slide-right{
+    width: 30%;
+    height: 100%;
+    background-color: #1f1f1e;
+    color: var(--white-color);
+    padding: 2.5rem 1.5rem ;
+}
+.Articles__slide-smal-title{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+.Articles__slide-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem ;
+}
+.Articles__slide-text{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.Articles__slide-left{
+    width: 70%;
+    height: 100%;
+}
+
+.Articles__slide-left img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}

@@ -5,12 +5,14 @@ import Login from "./Pages/Login/Login";
 import NotFound from "./Pages/NotFound/NotFound";
 import MainPost from "./Components/MainPost/MainPost";
 import AboutUs from "./Pages/AboutUs/AboutUs";
+import Articles from "./Pages/Articles/Articles";
 let routes = [
     {path : '/' , element : <Home />},
     {path : '/car' , element : <Car />},
     {path : '/car/:postId' , element : <MainPost />},
     {path : '/abouteUs' , element : <AboutUs />},
     {path : '/signUp' , element : <SingUp />},
+    {path : '/articles' , element : <Articles />},
     {path : '/login' , element : <Login />},
     {path : '*' , element : <NotFound />},
 ]
