@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
           <div className="footer__socials">
             <div className="footer__socials-logo">
-              <img src="./img/footer-logo.png" alt="footer-etemad" />
+              <img src="../img/footer-logo.png" alt="footer-etemad" />
             </div>
             <div className="footer__social-icons">
               <span className="footer__social-icon"><InstagramIcon /></span>

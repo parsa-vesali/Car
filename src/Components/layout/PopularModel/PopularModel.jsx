@@ -4,9 +4,9 @@ import { populaModelDatas } from "../../../datas";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import "./PopularModel.css";
+
 
 export default function PopularModel() {
   const [popularDatas, setPopularDatas] = useState(populaModelDatas);
@@ -34,14 +34,21 @@ export default function PopularModel() {
         </div>
         <div className="popularModel__images">
           {getRandomImages().map((popularData) => (
-            <img
-            key={popularData.id}
-              className="popularModel__image"
-              src={popularData.srcImg}
-              alt="popularImg"
-            />
+            <div className="popularModel__image-parent">
+              <img
+                key={popularData.id}
+                className="popularModel__image"
+                src={popularData.srcImg}
+                alt="popularImg"
+              />
+              <Link to={'/car'} className="popularImg-text link">
+              مشاهده 
+              <ChevronLeftIcon />
+              </Link>
+            </div>
           ))}
         </div>
+
         {/* MOBILE */}
         <div className="popularModel__images-mobile">
           <Swiper

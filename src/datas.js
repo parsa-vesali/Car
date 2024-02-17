@@ -1,7 +1,7 @@
 const SliderData = [
     {
-        id: 1,
-        srcImg: './img/slider.webp'
+        id: 2,
+        srcImg: './img/slider-2.jpg'
     },
 ]
 

@@ -30,7 +30,7 @@ export default function NavBar() {
             <div className="nav__right">
               <a href="#" className="nav__logo link">
                 <img
-                  src="./img/racing.png"
+                  src="../img/racing.png"
                   alt="logo"
                   className="nav__logo-img"
                 />
