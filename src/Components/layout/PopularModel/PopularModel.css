@@ -23,7 +23,7 @@
 }
 
 .popularModel__image {
-    width: 19rem;
+    width:20rem;
     cursor: pointer;
     transition: all 300ms ease;
 }
@@ -33,16 +33,15 @@
     direction: rtl;
 }
 
-.popularModel__image {
-    transform: scale(1.050);
-}
-
 .popularModel__image-parent {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .popularImg-text {
-    width: 100%;
+    width: 90%;
     position: absolute;
     z-index: 99;
     display: flex;
@@ -56,7 +55,7 @@
     background-color: transparent;
     border: 2px solid var(--white-color);
     padding: .5rem 1rem;
-    transition: all 300ms ease;
+    transition: all 200ms ease;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -71,6 +71,7 @@ body {
     .MainPost {
         padding: 0 0;
     }
+
     .MainPost__technical-title {
         font-size: 1.5rem;
     }
@@ -109,7 +110,15 @@ body {
     .CarSectionMain__container {
         padding: 0 2rem;
     }
-    
+
+    .MainPost {
+        padding: 3rem;
+    }
+
+    .MainPost__slider {
+        width: 60rem;
+    }
+
 }
 
 @media screen and (max-width : 992px) {
@@ -205,6 +214,24 @@ body {
     .sidebarFilterbox-mobile {
         display: flex;
     }
+
+    .MainPost {
+        flex-direction: column-reverse;
+    }
+
+    .MainPost__slider {
+        width: 100%;
+    }
+
+    .MainPost__right {
+        width: 100%;
+    }
+
+    .MainPost__btn {
+        width: 20rem;
+        font-size: 1.6rem;
+    }
+
 }
 
 @media screen and (max-width : 768px) {
@@ -301,11 +328,18 @@ body {
     .CarSectionMain__header-title {
         font-size: 1.4rem;
     }
+
     .NotFound__img {
         width: 25rem;
     }
+
     .NotFound__title {
         font-size: 2rem;
+    }
+
+    .MainPost__report-btn {
+        font-size: 1.1rem;
+        padding: 1rem .5rem;
     }
 }
 
@@ -512,5 +546,74 @@ body {
 
     .sideBarDilterbox__wrapper {
         font-size: 1.4rem;
+    }
+
+    .MainPost {
+        padding: 1rem;
+    }
+
+    .MainPost__slider {
+        height: 20rem;
+    }
+
+    .MainPost__description-title {
+        font-size: 1.6rem;
+    }
+
+    .MainPost__description-text {
+        font-size: 1.3rem;
+    }
+
+    .MainPost__technical-title {
+        font-size: 1.3rem;
+    }
+
+    .MainPost__technical-list {
+        flex-wrap: wrap;
+        gap: 1rem 0;
+    }
+
+    .MainPost__report {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .MainPost__report-text {
+        font-size: 1.1rem;
+        align-items: start;
+    }
+
+    .MainPost__report-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .MainPost__report-icon svg {
+        font-size: 1.5rem;
+    }
+    .MainPost__report-btn {
+        margin-top: 0.5rem;
+        padding: .2rem 0.5rem;
+    }
+    .MainPost__title {
+        font-size: 1.6rem;
+    }
+    .MainPost__Property {
+        font-size: 1.4rem;
+    }
+    .MainPost__seller-link {
+        font-size: 1.4rem;
+    }
+    .MainPost__seller-title {
+        font-size: 1.6rem;
+    }
+    .MainPost__seller-subtitle {
+        font-size: 1.3rem;
+    }
+    .MainPost__information-title {
+        font-size: 1rem;
+    }
+    .MainPost__information-text {
+        font-size: 1.3rem;
     }
 }
