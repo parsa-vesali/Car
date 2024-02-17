@@ -9,18 +9,24 @@ import Message from "../../Components/common/Message/Message";
 
 export default function Login() {
   const [isShowMessage, setIsShowMessage] = useState(false);
+  const [isShowMessageWellcom, setIsShowMessageWellcom] = useState(false);
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
 
   const submitHandler = (e) => {
     e.preventDefault();
-    if (!userName || !password) {
+    if (userName.length < 5 || password.length < 8) {
       setIsShowMessage(true);
       setTimeout(() => {
         setIsShowMessage(false);
       }, 3000);
-      setPassword('')
-      setUserName('')
+      setPassword("");
+      setUserName("");
+    } else {
+      setIsShowMessageWellcom(true);
+      setTimeout(() => {
+        setIsShowMessageWellcom(false);
+      }, 3000);
     }
   };
 
@@ -72,7 +78,10 @@ export default function Login() {
           </Link>
         </p>
       </div>
-      {isShowMessage && <Message msg={"لطفا اطاعات را به درستی وارد نمایید"} />}
+      {isShowMessage && <Message msg={"نام کاربری 5 و رمز عبور باید دارای 8 کارکتر باشد!"} />}
+      {isShowMessageWellcom && (
+        <Message msg={"خوش آمدید"} />
+      )}
     </>
   );
 }
