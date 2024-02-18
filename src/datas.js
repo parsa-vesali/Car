@@ -150,34 +150,6 @@ const articleDatas = [
         mainImg: './img/article-5.webp',
         createdAt: '1402/4/2'
     },
-    // {
-    //     id: 6,
-    //     title: 'معرفی لاماری ایما ',
-    //     subtitle: 'شرایط خرید و معرفی محصول',
-    //     mainImg: './img/article-6.webp',
-    //     createdAt: '1402/4/2'
-    // },
-    // {
-    //     id: 7,
-    //     title: 'معرفی لاماری ایما ',
-    //     subtitle: 'شرایط خرید و معرفی محصول',
-    //     mainImg: './img/article-7.webp',
-    //     createdAt: '1402/4/2'
-    // },
-    // {
-    //     id: 8,
-    //     title: 'معرفی لاماری ایما ',
-    //     subtitle: 'شرایط خرید و معرفی محصول',
-    //     mainImg: './img/article-8.webp',
-    //     createdAt: '1402/4/2'
-    // },
-    // {
-    //     id: 9,
-    //     title: 'معرفی لاماری ایما ',
-    //     subtitle: 'شرایط خرید و معرفی محصول',
-    //     mainImg: './img/article-9.webp',
-    //     createdAt: '1402/4/2'
-    // },
 ]
 
 const bodyTypeDatas = [

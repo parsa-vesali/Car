@@ -10,6 +10,7 @@ import ArticleSlider from "./ArticlesSlider/ArticleSlider";
 
 import "./Articles.css";
 import ArticleBox from "../../Components/layout/Articles/ArticleBox/ArticleBox";
+import UpdatedPriceSlider from "../../Components/UpdatedPrice/UpdatedPriceSlider/UpdatedPriceSlider";
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -62,10 +63,7 @@ export default function Articles() {
               aria-label="basic tabs example"
             >
               <Tab className="tab" label="اخبار" {...a11yProps(0)} />
-              <Tab className="tab" label="اخبار خودرو" {...a11yProps(1)} />
-              <Tab className="tab" label="شرایط فروش" {...a11yProps(2)} />
-              <Tab className="tab" label="راهنمای بازار" {...a11yProps(3)} />
-              <Tab className="tab" label="موتورسیکلت" {...a11yProps(4)} />
+              <Tab className="tab" label="قیمت خودرو" {...a11yProps(1)} />
             </Tabs>
           </Box>
           <CustomTabPanel value={value} index={0}>
@@ -76,16 +74,9 @@ export default function Articles() {
             </div>
           </CustomTabPanel>
           <CustomTabPanel value={value} index={1}>
-            سلام Two
-          </CustomTabPanel>
-          <CustomTabPanel value={value} index={2}>
-            Item Three
-          </CustomTabPanel>
-          <CustomTabPanel value={value} index={3}>
-            Item Three
-          </CustomTabPanel>
-          <CustomTabPanel value={value} index={4}>
-            Item Three
+            <div className="Articles__price-slider">
+            <UpdatedPriceSlider />
+            </div>
           </CustomTabPanel>
         </Box>
       </div>
