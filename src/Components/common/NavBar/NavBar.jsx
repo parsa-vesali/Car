@@ -57,18 +57,18 @@ export default function NavBar() {
                         <AddIcon className="nav__submenu-icon" />
                         ثبت آگهی خودرو
                       </a>
-                      <a href="#" className="nav__submneu-item link">
+                      <Link to={'/articles'} className="nav__submneu-item link">
                         <ShowChartIcon className="nav__submenu-icon" />
                         قیمت روز خودرو
-                      </a>
-                      <a href="#" className="nav__submneu-item link">
+                      </Link>
+                      <Link to={'/articles'} className="nav__submneu-item link">
                         <BuildIcon className="nav__submenu-icon" />
                         مشخصات فنی خودرو
-                      </a>
-                      <a href="#" className="nav__submneu-item link">
+                      </Link>
+                      <Link to={'/articles'} className="nav__submneu-item link">
                         <NewspaperIcon className="nav__submenu-icon" />
                         اخبار خودرو
-                      </a>
+                      </Link>
                     </div>
                   </span>
                 </Link>
@@ -85,18 +85,18 @@ export default function NavBar() {
                         <AddIcon className="nav__submenu-icon" />
                         ثبت آگهی موتورسیکلت
                       </a>
-                      <a href="#" className="nav__submneu-item link">
+                      <Link to={'/articles'} className="nav__submneu-item link">
                         <ShowChartIcon className="nav__submenu-icon" />
                         قیمت روز موتورسیکلت
-                      </a>
-                      <a href="#" className="nav__submneu-item link">
+                      </Link>
+                      <Link to={'/articles'}className="nav__submneu-item link">
                         <NewspaperIcon className="nav__submenu-icon" />
                         اخبار موتورسیکلت
-                      </a>
+                      </Link>
                     </div>
                   </span>
                 </Link>
-                <Link to={"/"} className="link">
+                <Link to={"/articles"} className="link">
                   <span className="nav__menu-item">مقالات</span>
                 </Link>
                 <Link to={"/abouteUs"} className="link">
@@ -185,11 +185,11 @@ export default function NavBar() {
                 <ShowChartIcon className="nav__submenu-icon" />
                 قیمت روز خودرو
               </a>
-              <a href="#" className="nav__submneu-item link">
+              <Link to={'/articles'} className="nav__submneu-item link">
                 <BuildIcon className="nav__submenu-icon" />
                 مشخصات فنی خودرو
-              </a>
-              <Link to={'/'} className="nav__submneu-item link">
+              </Link>
+              <Link to={'/articles'} className="nav__submneu-item link">
                 <NewspaperIcon className="nav__submenu-icon" />
                 اخبار خودرو
               </Link>
