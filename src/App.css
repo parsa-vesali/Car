@@ -75,6 +75,9 @@ body {
     .MainPost__technical-title {
         font-size: 1.5rem;
     }
+    .article__box {
+        width: 30rem;
+    }
 }
 
 @media screen and (max-width : 1200px) {
@@ -117,6 +120,12 @@ body {
 
     .MainPost__slider {
         width: 60rem;
+    }
+    .article__box {
+        width: 20rem;
+    }
+    .article__boxes {
+        justify-content: center;
     }
 
 }
@@ -624,5 +633,21 @@ body {
     }
     .AboutUs {
         margin: 4rem 1rem ;
+    }
+
+    .Articles__slider-wrapper{
+        height: 15rem;
+    }
+    .Articles__slide-right {
+        padding: .5rem;
+    }
+    .Articles__slide-smal-title{
+        font-size: 1rem;
+    }
+    .Articles__slide-title {
+        font-size: 1.4rem;
+    }
+    .Articles__slide-text {
+        display: none;
     }
 }

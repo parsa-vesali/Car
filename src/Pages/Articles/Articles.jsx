@@ -69,9 +69,11 @@ export default function Articles() {
             </Tabs>
           </Box>
           <CustomTabPanel value={value} index={0}>
-           <ArticleSlider />
-           <ArticleBox />
-           <ArticleBox />
+            <ArticleSlider />
+            <div className="container">
+              <ArticleBox />
+              <ArticleBox />
+            </div>
           </CustomTabPanel>
           <CustomTabPanel value={value} index={1}>
             سلام Two
