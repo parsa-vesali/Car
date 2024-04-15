@@ -1,8 +1,16 @@
 # Car buying website 🚗💻
-### This project is not finished yet
+### A website like bama ...🫡
+
+I made this project with `React js` and used `MUI` next to it 
+
+pages : 
+
+- car purchase
+- articles
+- login
+- Register
+
 <br>
-
-
 
 
 <h2>🔧 created with : </h2>
