@@ -63,6 +63,10 @@ body {
     width: 100%;
 }
 
+.container-1 {
+    display: flex;
+    margin-top: 2rem;
+}
 
 /* ============= RESPONSIVE ============== */
 
@@ -75,6 +79,7 @@ body {
     .MainPost__technical-title {
         font-size: 1.5rem;
     }
+
     .article__box {
         width: 30rem;
     }
@@ -121,9 +126,11 @@ body {
     .MainPost__slider {
         width: 60rem;
     }
+
     .article__box {
         width: 20rem;
     }
+
     .article__boxes {
         justify-content: center;
     }
@@ -240,8 +247,9 @@ body {
         width: 20rem;
         font-size: 1.6rem;
     }
+
     .AboutUs {
-        margin: 4rem 5rem ;
+        margin: 4rem 5rem;
     }
 
 }
@@ -353,8 +361,9 @@ body {
         font-size: 1.1rem;
         padding: 1rem .5rem;
     }
+
     .AboutUs {
-        margin: 4rem 1rem ;
+        margin: 4rem 1rem;
     }
 }
 
@@ -606,47 +615,60 @@ body {
     .MainPost__report-icon svg {
         font-size: 1.5rem;
     }
+
     .MainPost__report-btn {
         margin-top: 0.5rem;
         padding: .2rem 0.5rem;
     }
+
     .MainPost__title {
         font-size: 1.6rem;
     }
+
     .MainPost__Property {
         font-size: 1.4rem;
     }
+
     .MainPost__seller-link {
         font-size: 1.4rem;
     }
+
     .MainPost__seller-title {
         font-size: 1.6rem;
     }
+
     .MainPost__seller-subtitle {
         font-size: 1.3rem;
     }
+
     .MainPost__information-title {
         font-size: 1rem;
     }
+
     .MainPost__information-text {
         font-size: 1.3rem;
     }
+
     .AboutUs {
-        margin: 4rem 1rem ;
+        margin: 4rem 1rem;
     }
 
-    .Articles__slider-wrapper{
+    .Articles__slider-wrapper {
         height: 15rem;
     }
+
     .Articles__slide-right {
         padding: .5rem;
     }
-    .Articles__slide-smal-title{
+
+    .Articles__slide-smal-title {
         font-size: 1rem;
     }
+
     .Articles__slide-title {
         font-size: 1.4rem;
     }
+
     .Articles__slide-text {
         display: none;
     }

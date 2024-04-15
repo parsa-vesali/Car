@@ -1,0 +1,15 @@
+.linechartContainer {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.linechartTitle {
+    margin-bottom: 1rem;
+}
+.lineChart {
+    width: 100%;
+}

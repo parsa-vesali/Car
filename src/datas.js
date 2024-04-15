@@ -1,3 +1,142 @@
+export const searchBrnand = [
+    {
+        id: 1,
+        name: 'آمیکو'
+    },
+    {
+        id: 2,
+        name: 'آلفارومئو'
+    },
+    {
+        id: 3,
+        name: 'آلفارومئو 4C کوپه'
+    },
+    {
+        id: 4,
+        name: 'آریسان دوگانه سوز'
+    },
+    {
+        id: 5,
+        name: 'آئودی Q5'
+    },
+    {
+        id: 6,
+        name: 'آئودی TT کوپه'
+    },
+    {
+        id: 7,
+        name: 'ام جی 360'
+    },
+    {
+        id: 8,
+        name: 'ب ام و X5'
+    },
+    {
+        id: 9,
+        name: 'ب ام و سری 3 GT'
+    },
+    {
+        id: 10,
+        name: 'ب ام و سری 7'
+    },
+    {
+        id: 11,
+        name: 'برلیانس H230'
+    },
+    {
+        id: 12,
+        name: 'بنز کلاس GLA'
+    },
+    {
+        id: 13,
+        name: 'بنز کلاس E کوپه'
+    },
+    {
+        id: 14,
+        name: 'بنز کلاس E کروک'
+    },
+    {
+        id: 15,
+        name: 'بنز کلاس E'
+    },
+    {
+        id: 16,
+        name: 'پورشه ماکان'
+    },
+    {
+        id: 17,
+        name: 'پورشه پانامرا'
+    },
+    {
+        id: 18,
+        name: 'پورشه 911'
+    },
+    {
+        id: 19,
+        name: 'پراید 131'
+    },
+    {
+        id: 20,
+        name: 'پراید 111'
+    },
+    {
+        id: 21,
+        name: 'پژو 206'
+    },
+    {
+        id: 22,
+        name: 'سمند LX'
+    },
+    {
+        id: 23,
+        name: 'ساینا S'
+    },
+    {
+        id: 24,
+        name: 'رانا پلاس'
+    },
+    {
+        id: 25,
+        name: 'دنا معمولی'
+    },
+    {
+        id: 26,
+        name: 'چری آریزو 5'
+    },
+    {
+        id: 27,
+        name: 'جک S3'
+    },
+    {
+        id: 28,
+        name: 'تویوتا C-HR هیبرید'
+    },
+    {
+        id: 29,
+        name: 'هیوندای جنسیس'
+    },
+    {
+        id: 30,
+        name: 'هیوندای توسان'
+    },
+    {
+        id: 31,
+        name: 'مازراتی گرن توریسمو'
+    },
+    {
+        id: 32,
+        name: 'مزدا 2 هاچ بک'
+    },
+    {
+        id: 33,
+        name: 'لوتوس الیزه'
+    },
+    {
+        id: 34,
+        name: 'لکسوس NX'
+    },
+]
+
 const SliderData = [
     {
         id: 2,
@@ -106,13 +245,14 @@ const brandDatas = [
         increase: true
     },
     {
-        id: 6,
+        id: 7,
         title: 'لکسوس',
         price: '34,800,000',
         increase: false,
         logoSvg: <svg data-v-1d57be6d="" data-v-ca4101d8="" viewBox="0 0 24 24" class="stepped-selection__list-item-brand-icon"><path d="M15.69 6.06c-.07.1-.13.18-.2.27-.15.21-.3.42-.45.62l-.39.54-.39.54c-.12.16-.23.32-.35.48-.25.35-.51.7-.76 1.06l-.53.74c-.17.23-.33.46-.5.69-.21.3-.43.59-.64.88-.2.28-.4.57-.61.85-.09.11-.13.24-.16.37-.03.14-.06.27-.05.41 0 .14.06.25.19.31.08.04.17.04.26.04h8.14c.03 0 .05 0 .06-.04.06-.17.12-.33.17-.5.04-.12.07-.23.09-.35.03-.12.05-.24.07-.37.02-.13.04-.25.05-.38v-.51c0-.14-.02-.29-.04-.43-.03-.16-.06-.31-.11-.47-.05-.17-.12-.33-.18-.49a3.15 3.15 0 0 0-.13-.26c-.13-.22-.26-.45-.4-.67-.12-.18-.25-.35-.39-.52-.21-.27-.45-.51-.72-.73-.18-.15-.37-.3-.56-.43-.34-.23-.7-.42-1.08-.56-.1-.04-.2-.06-.29-.09 0 0-.01 0-.03-.01l.59-.77c.08.03.15.06.22.1.22.11.45.21.66.32.22.12.44.25.65.38.3.18.58.38.85.6.2.16.4.34.59.52.24.23.46.48.66.75.11.16.22.33.31.5.09.16.16.33.23.51.08.2.15.41.21.61.05.14.08.29.11.44.04.19.07.38.1.57.03.23.03.46.03.69 0 .11 0 .22-.01.33-.01.13-.03.27-.06.4l-.12.53c-.03.12-.08.24-.13.35-.1.26-.23.5-.38.73-.13.2-.26.39-.42.56-.08.08-.16.17-.25.25-.01.01-.04.02-.06.02H9.15a1.2 1.2 0 0 1-.53-.11c-.23-.1-.43-.24-.58-.45-.08-.11-.13-.24-.17-.37-.03-.13-.07-.26-.1-.4-.04-.21-.05-.43-.04-.64.01-.22.07-.44.16-.64.05-.11.09-.22.16-.31.11-.16.23-.32.34-.48.11-.16.22-.31.33-.47.13-.19.26-.37.39-.56.14-.19.27-.39.41-.58l.64-.91c.08-.11.16-.23.24-.34l.31-.43c.22-.31.43-.62.65-.93.18-.25.36-.5.53-.76.15-.22.3-.43.45-.65 0 0 0-.02.02-.03-.05 0-.09-.01-.14-.01h-.68c-.17 0-.34.02-.5.03-.11 0-.22.01-.33.03-.1.01-.21.03-.31.04l-.37.06c-.12.02-.25.05-.37.08-.24.06-.48.12-.71.18-.13.04-.27.08-.4.13-.19.07-.38.15-.56.23-.33.15-.65.32-.95.52-.24.16-.46.33-.67.52-.22.2-.42.41-.6.64-.15.19-.3.38-.44.58-.17.23-.32.48-.46.74-.13.26-.25.52-.33.8-.05.18-.09.37-.13.56-.03.19-.05.38-.04.57 0 .15.03.3.05.45l.06.37c.03.14.07.28.11.42.08.27.19.52.31.78.11.23.23.45.38.66.14.2.29.39.45.58.12.15.27.28.41.41.21.2.45.39.69.55.16.11.32.21.48.3.18.1.37.2.56.29.25.12.5.22.77.3.14.04.28.09.42.13.1.03.2.05.3.08.14.04.28.07.42.11.12.03.25.05.37.08.15.03.3.06.46.08.1.02.2.03.31.04.12.02.24.03.35.04l.31.03.82.03c.16 0 .31-.01.47-.02.13 0 .26-.02.39-.03.12-.01.25-.03.37-.05.19-.03.39-.06.58-.1.11-.02.23-.05.34-.08l.45-.12c.17-.05.34-.11.51-.18.23-.09.45-.18.67-.29.23-.12.46-.25.68-.38.27-.17.53-.36.77-.58.01-.01.03-.02.05-.02.48 0 .95 0 1.43-.01h.04v.01c-.05.05-.11.1-.16.15-.17.16-.35.3-.53.44-.22.17-.45.32-.69.46-.17.1-.34.2-.51.28-.21.11-.43.21-.65.3-.27.11-.54.21-.81.3-.21.07-.42.13-.63.19-.14.04-.28.07-.42.1-.16.03-.32.07-.48.1-.18.03-.37.07-.55.09-.15.02-.31.04-.46.05-.2.02-.41.03-.62.05-.33.03-.67.03-1 .02-.18 0-.37 0-.55-.01-.19 0-.38-.02-.57-.04-.2-.02-.41-.04-.61-.07l-.43-.06a6.21 6.21 0 0 1-.46-.1l-.58-.15c-.17-.05-.34-.11-.51-.17-.23-.09-.47-.18-.69-.28-.24-.11-.48-.23-.71-.37-.22-.13-.44-.27-.66-.41-.18-.12-.35-.25-.51-.38-.2-.16-.4-.33-.59-.51a7 7 0 0 1-.46-.48c-.22-.23-.42-.48-.6-.74-.11-.16-.22-.32-.29-.5-.09-.22-.17-.45-.24-.68-.05-.15-.08-.3-.12-.45-.03-.14-.05-.28-.07-.41-.05-.31-.06-.62-.04-.94 0-.18.03-.37.06-.55s.06-.36.11-.54c.06-.21.13-.41.21-.61.08-.22.19-.43.31-.63a5.416 5.416 0 0 1 1-1.24c.21-.2.44-.39.67-.57.24-.18.48-.35.74-.5.27-.16.54-.31.82-.46.23-.12.47-.23.71-.33s.48-.18.72-.26c.19-.06.38-.12.57-.17.27-.07.53-.13.8-.19.16-.03.32-.06.47-.09.2-.03.41-.06.62-.08.23-.02.46-.04.69-.05.32 0 .63-.01.95 0 .2 0 .4.01.59.03.17.01.33.03.5.05.2.02.4.05.59.09.21.04.42.08.62.13.3.07.6.16.89.27.01 0 .02.01.04.02" fill="currentColor"></path></svg>
     }
 ]
+
 
 const articleDatas = [
     {
@@ -251,15 +391,15 @@ const postDatas = [
         address: 'تهران / سعادت آباد',
         price: '2,550,000,000',
         mainImg: './img/posts/post-1.webp',
-        slideImg : [
+        slideImg: [
             {
-                src : './img/posts/post-1-slide-1.webp',
+                src: './img/posts/post-1-slide-1.webp',
             },
             {
-                src : './img/posts/post-1-slide-2.webp',
+                src: './img/posts/post-1-slide-2.webp',
             },
             {
-                src : './img/posts/post-1-slide-3.webp',
+                src: './img/posts/post-1-slide-3.webp',
             },
         ]
     },
@@ -274,15 +414,15 @@ const postDatas = [
         address: 'تهران / آریا شهر ',
         price: '470,000,000',
         mainImg: './img/posts/post-2.webp',
-        slideImg : [
+        slideImg: [
             {
-                src : './img/posts/post-2-slide-1.webp',
+                src: './img/posts/post-2-slide-1.webp',
             },
             {
-                src : './img/posts/post-2-slide-2.webp',
+                src: './img/posts/post-2-slide-2.webp',
             },
             {
-                src : './img/posts/post-2-slide-3.webp',
+                src: './img/posts/post-2-slide-3.webp',
             },
         ]
     },
@@ -297,18 +437,18 @@ const postDatas = [
         address: 'تهران / میدان بهمن  ',
         price: '10,000,000,000',
         mainImg: './img/posts/post-3-slide-4.webp',
-        slideImg : [
+        slideImg: [
             {
-                src : './img/posts/post-3-slide-4.webp',
+                src: './img/posts/post-3-slide-4.webp',
             },
             {
-                src : './img/posts/post-3-slide-1.webp',
+                src: './img/posts/post-3-slide-1.webp',
             },
             {
-                src : './img/posts/post-3-slide-2.webp',
+                src: './img/posts/post-3-slide-2.webp',
             },
             {
-                src : './img/posts/post-3-slide-3.webp',
+                src: './img/posts/post-3-slide-3.webp',
             },
         ]
     },
@@ -323,15 +463,15 @@ const postDatas = [
         address: 'تهران / پیروزی  ',
         price: '600,000,000',
         mainImg: './img/posts/post-4.webp',
-        slideImg : [
+        slideImg: [
             {
-                src : './img/posts/post-4-slide-1.webp',
+                src: './img/posts/post-4-slide-1.webp',
             },
             {
-                src : './img/posts/post-4-slide-2.webp',
+                src: './img/posts/post-4-slide-2.webp',
             },
             {
-                src : './img/posts/post-4-slide-3.webp',
+                src: './img/posts/post-4-slide-3.webp',
             },
         ]
     },
@@ -346,15 +486,15 @@ const postDatas = [
         address: 'تهران / خیابان رجایی  ',
         price: '1,900,000,000',
         mainImg: './img/posts/post-5.webp',
-        slideImg : [
+        slideImg: [
             {
-                src : './img/posts/post-1-slide-1.webp',
+                src: './img/posts/post-1-slide-1.webp',
             },
             {
-                src : './img/posts/post-1-slide-2.webp',
+                src: './img/posts/post-1-slide-2.webp',
             },
             {
-                src : './img/posts/post-1-slide-3.webp',
+                src: './img/posts/post-1-slide-3.webp',
             },
         ]
     },
@@ -369,15 +509,15 @@ const postDatas = [
         address: 'تهران / شهید مطهری  ',
         price: '2,000,000,000',
         mainImg: './img/posts/post-6.webp',
-         slideImg : [
+        slideImg: [
             {
-                src : './img/posts/post-1-slide-1.webp',
+                src: './img/posts/post-1-slide-1.webp',
             },
             {
-                src : './img/posts/post-1-slide-2.webp',
+                src: './img/posts/post-1-slide-2.webp',
             },
             {
-                src : './img/posts/post-1-slide-3.webp',
+                src: './img/posts/post-1-slide-3.webp',
             },
         ]
     },
@@ -392,15 +532,15 @@ const postDatas = [
         address: 'تهران / شهید مطهری  ',
         price: '2,200,000,000',
         mainImg: './img/posts/post-7.webp',
-         slideImg : [
+        slideImg: [
             {
-                src : './img/posts/post-1-slide-1.webp',
+                src: './img/posts/post-1-slide-1.webp',
             },
             {
-                src : './img/posts/post-1-slide-2.webp',
+                src: './img/posts/post-1-slide-2.webp',
             },
             {
-                src : './img/posts/post-1-slide-3.webp',
+                src: './img/posts/post-1-slide-3.webp',
             },
         ]
     },
@@ -415,15 +555,15 @@ const postDatas = [
         address: 'تهران / جردن   ',
         price: 'توافقی',
         mainImg: './img/posts/post-8.webp',
-         slideImg : [
+        slideImg: [
             {
-                src : './img/posts/post-1-slide-1.webp',
+                src: './img/posts/post-1-slide-1.webp',
             },
             {
-                src : './img/posts/post-1-slide-2.webp',
+                src: './img/posts/post-1-slide-2.webp',
             },
             {
-                src : './img/posts/post-1-slide-3.webp',
+                src: './img/posts/post-1-slide-3.webp',
             },
         ]
     },
@@ -438,15 +578,15 @@ const postDatas = [
         address: 'تهران / جردن   ',
         price: 'توافقی',
         mainImg: './img/posts/post-9.webp',
-         slideImg : [
+        slideImg: [
             {
-                src : './img/posts/post-1-slide-1.webp',
+                src: './img/posts/post-1-slide-1.webp',
             },
             {
-                src : './img/posts/post-1-slide-2.webp',
+                src: './img/posts/post-1-slide-2.webp',
             },
             {
-                src : './img/posts/post-1-slide-3.webp',
+                src: './img/posts/post-1-slide-3.webp',
             },
         ]
     },
@@ -461,15 +601,15 @@ const postDatas = [
         address: 'تهران / آریا شهر   ',
         price: '2,500,000,000',
         mainImg: './img/posts/post-10.webp',
-         slideImg : [
+        slideImg: [
             {
-                src : './img/posts/post-1-slide-1.webp',
+                src: './img/posts/post-1-slide-1.webp',
             },
             {
-                src : './img/posts/post-1-slide-2.webp',
+                src: './img/posts/post-1-slide-2.webp',
             },
             {
-                src : './img/posts/post-1-slide-3.webp',
+                src: './img/posts/post-1-slide-3.webp',
             },
         ]
     },
@@ -518,4 +658,261 @@ const cityDatas = [
     },
 ]
 
+let xAxisData = [
+    {
+        "name": 'Jan',
+        "sale": 112_000
+    },
+    {
+        "name": 'Feb',
+        "sale": 78_000
+    },
+    {
+        "name": 'Mar',
+        "sale": 120_000
+    },
+    {
+        "name": 'Apr',
+        "sale": 112_000
+    },
+    {
+        "name": 'May',
+        "sale": 90_000
+    },
+    {
+        "name": 'Jul',
+        "sale": 99_000
+    },
+    {
+        "name": 'July',
+        "sale": 120_000
+    },
+    {
+        "name": 'Agu',
+        "sale": 200_000
+    },
+    {
+        "name": 'Sep',
+        "sale": 280_000
+    },
+    {
+        "name": 'Otc',
+        "sale": 212_000
+    },
+    {
+        "name": 'Nov',
+        "sale": 152_000
+    },
+    {
+        "name": 'Dev',
+        "sale": 370_000
+    },
+]
+
+
+const newMembers = [
+    {
+        id: 1,
+        userName: "alireza",
+        title: 'web Developer',
+        img: 'img/user-1.jpg'
+    },
+    {
+        id: 2,
+        userName: "parsa",
+        title: 'web Developer',
+        img: 'image/user-2.jpg'
+    },
+    {
+        id: 3,
+        userName: "zahra",
+        title: 'web Developer',
+        img: 'image/user-3.jpg'
+    },
+    {
+        id: 4,
+        userName: "saeed",
+        title: 'web Developer',
+        img: 'image/user-4.jpg'
+    },
+]
+
+
+const transactions = [
+    {
+        id: 1,
+        customer: 'رضا ',
+        img: 'img/user-5.jpg',
+        date: '12 jun 2023',
+        amount: 194,
+        status: 'Declined',
+        text: 'کنسل شده'
+    },
+    {
+        id: 2,
+        customer: 'محسن ',
+        img: 'img/user-6.jpg',
+        date: '18 May 2023',
+        amount: 739,
+        status: 'Approved',
+        text: 'تایید شده'
+    },
+    {
+        id: 3,
+        customer: 'سارا',
+        img: 'img/user-3.jpg',
+        date: '8 jun 2023',
+        amount: 982,
+        status: 'Approved',
+        text: 'تایید شده'
+    },
+    {
+        id: 4,
+        customer: 'پارسا ',
+        img: 'img/user-2.jpg',
+        date: '23 Apr 2023',
+        amount: 383,
+        status: 'Pending',
+        text: 'انتظار'
+    },
+    {
+        id: 5,
+        customer: 'امیر',
+        img: 'img/user-1.jpg',
+        date: '3 Dev 2023',
+        amount: 233,
+        status: 'Declined',
+        text: 'کنسل شده'
+    },
+]
+
+
+let userRows = [
+    {
+        id: 1,
+        userName: 'امیر',
+        avatar: 'img/user-1.jpg',
+        status: 'active',
+        transaction: 218.52,
+        email: 'Email@email.com'
+    },
+    {
+        id: 2,
+        userName: 'پارسا',
+        avatar: 'img/user-2.jpg',
+        status: 'active',
+        transaction: 218.52,
+        email: 'Email@email.com'
+    },
+    {
+        id: 3,
+        userName: 'سارا',
+        avatar: 'img/user-3.jpg',
+        status: 'active',
+        transaction: 218.52,
+        email: 'Email@email.com'
+    },
+    {
+        id: 4,
+        userName: 'حسین',
+        avatar: 'img/user-4.jpg',
+        status: 'active',
+        transaction: 218.52,
+        email: 'Email@email.com'
+    },
+    {
+        id: 5,
+        userName: 'محمد',
+        avatar: 'img/user-5.jpg',
+        status: 'active',
+        transaction: 218.52,
+        email: 'Email@email.com'
+    },
+    {
+        id: 6,
+        userName: 'علی',
+        avatar: 'img/user-6.jpg',
+        status: 'active',
+        transaction: 218.52,
+        email: 'Email@email.com'
+    },
+]
+
+const products = [
+    {
+        id: 1,
+        title: 'apple',
+        img: 'img/category-1.png',
+        price: '$340',
+        count: 343
+    },
+    {
+        id: 2,
+        title: 'asus',
+        img: 'img/category-2.png',
+        price: '$803',
+        count: 5323
+    },
+    {
+        id: 3,
+        title: 'mobile',
+        img: 'img/category-3.png',
+        price: '$910',
+        count: 5233
+    },
+    {
+        id: 4,
+        title: 'laptop',
+        img: 'img/category-4.png',
+        price: ' $229',
+        count: 930
+    },
+    {
+        id: 5,
+        title: 'apple',
+        img: 'img/category-5.png',
+        price: ' $122',
+        count: 374
+    },
+]
+
+const productDatas = [
+    {
+        name: 'Jun',
+        Sale: 600,
+    },
+    {
+        name: 'Feb',
+        Sale: 1200,
+    },
+    {
+        name: 'Mar',
+        Sale: 1900,
+    },
+    {
+        name: 'July',
+        Sale: 2100,
+    },
+]
+
+const datasChrt = [
+    { month: "Jan", volvo: 40, benz: 20, bmw: 45 },
+    { month: "Feb", volvo: 30, benz: 12, bmw: 50 },
+    { month: "Mar", volvo: 23, benz: 15, bmw: 33 },
+    { month: "Apr", volvo: 39, benz: 20, bmw: 35 },
+    { month: "May", volvo: 45, benz: 32, bmw: 39 },
+    { month: "Jul", volvo: 51, benz: 44, bmw: 40 },
+    { month: "July", volvo: 54, benz: 45, bmw: 20 },
+    { month: "Agu", volvo: 66, benz: 49, bmw: 19 },
+    { month: "Sep", volvo: 75, benz: 50, bmw: 15 },
+    { month: "Otc", volvo: 80, benz: 53, bmw: 30 },
+    { month: "Nov", volvo: 85, benz: 59, bmw: 49 },
+    { month: "Dev", volvo: 90, benz: 60, bmw: 50 },
+];
+
+
+export { xAxisData, newMembers, transactions, userRows, products, productDatas, datasChrt }
+
 export { SliderData, populaModelDatas, brandDatas, articleDatas, bodyTypeDatas, colorDatas, bodyCondition, postDatas, cityDatas }
+
+

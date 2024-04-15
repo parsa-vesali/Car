@@ -57,7 +57,7 @@ export default function Login() {
           />
 
           <button className="form__submit" onClick={submitHandler}>
-            ورود
+            <Link to={'/dashboard'} className="link">ورود</Link>
           </button>
         </Form>
         <p className="form__social-title">وارد شوید با :</p>

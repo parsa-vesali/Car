@@ -1,0 +1,60 @@
+.features{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.featureItem{
+    flex: 1;
+    margin: 0 3rem;
+    padding: 3rem 4rem ;
+    padding-left: 12rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 4rem;
+    color: #fff;
+}
+.featureItem:nth-child(1) {
+    background-color: #33BFFF;
+}
+.featureItem:nth-child(2) {
+    background-color: #1A2233;
+}
+.featureItem:nth-child(3) {
+    background-color: #FF6633;
+}
+.featureTitle{
+    font-size: 2rem;
+}
+.featureContainer{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.featureMony{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: ltr;
+}
+.featureRate{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: ltr;
+}
+.featureRate svg {
+    font-size: 2.5rem;
+}
+.featureIcon{
+    margin-left:0.5rem;
+    color: green;
+}
+.negative{
+    color: red;
+}
+.fatureSub{
+    font-size: 1.5rem;
+    color: #f2f2f2;
+}
